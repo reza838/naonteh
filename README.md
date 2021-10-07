@@ -1,3 +1,3 @@
 # naon
-Ngasal kata mamah
-skksksk
+aaskkasassa
+awowaoak kntl lu
