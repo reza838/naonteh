@@ -72,7 +72,7 @@ const setGelud = require('./lib/gameGelud.js')
 const game = require("./lib/game");
 tttawal= ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣"]
 
-join = '\`\`\`𝘽𝙚𝙗𝙖𝙣 𝘽𝙖𝙧𝙪\`\`\` \n \`\`\`Nama :\`\`\` \n \`\`\`Askot : \`\`\` \n \`\`\`Umur :\`\`\` \n \`\`\`Status :\`\`\` \n\n - [ Billaw-Bot ] -'
+join = '\`\`\`𝘽𝙚𝙗𝙖𝙣 𝘽𝙖𝙧𝙪\`\`\` \n \`\`\`Nama :\`\`\` \n \`\`\`Askot : \`\`\` \n \`\`\`Umur :\`\`\` \n \`\`\`Status :\`\`\` \n\n - [ Reteam.bot ] -'
 leave = '\`\`\`𝘽𝙮𝙚𝙚 𝘼𝙣𝙖𝙠 𝘼𝙟𝙜👋\`\`\`'
 const simple = require('./lib/simple.js')
 let fakeimage = fs.readFileSync("./media/wpmobile.png")
@@ -81,7 +81,7 @@ let setting = JSON.parse(fs.readFileSync('./setting.json'))
 banChats = true;
 owner = setting.owner
 gamewaktu = setting.gamewaktu
-autovn = true;
+autovn = false;
 autoketik = false;
 autojoin = false;
 // Database
@@ -610,8 +610,8 @@ const isImage = (type === 'imageMessage')
             role = 'Immortal'
         } 
         ////DAFTAR BUTTON BY IKY
-      const daftar1 = `Hai kak  ${pushname} ${ucapanWaktu} \n\nSebelum Menggunakan Billaw-Bot Verify Terlebih Dahulu Ya `
-       const daftar2 = '```Ketik Tombol Di Bawah Untuk Verify Kak\nBillaw-Bot```'
+      const daftar1 = `Hai kak  ${pushname} ${ucapanWaktu} \n\nSebelum Menggunakan Reteeam.bot Verify Terlebih Dahulu Ya `
+       const daftar2 = '```Ketik Tombol Di Bawah Untuk Verify Kak\nReteam.bot```'
        const daftar3 = [
           {
             buttonId: `!verify`,
@@ -624,7 +624,7 @@ const isImage = (type === 'imageMessage')
           
           
       const prem1 = `Hai kak  ${pushname} ${ucapanWaktu} \n\n Fitur Ini Khusus Member Premium Silahkan Buy Premium Untuk Menggunakan Fitur Ini `
-       const prem2 = '```KLIK TOMBOL DI BAWAH UNTUK MELIHAT LIST PREMIUM\n Billaw-Bot```'
+       const prem2 = '```KLIK TOMBOL DI BAWAH UNTUK MELIHAT LIST PREMIUM\n Reteam.bot```'
        const prem3 = [
           {
             buttonId: `!sewabot`,
@@ -901,7 +901,7 @@ const isVideo = (type === 'videoMessage')
 			let Levelnye = level.getLevelingLevel(sender, _level)
               let Xpluu = level.getLevelingXp(sender, _level)
               let requiredXplu = 10 * Math.pow(Levelnye, 2) + 50 * Levelnye + 100
-			tc = `MAAF KA NOMER KAMU BLOM TERDAFTAR DI DATABASE SILAHKAN KETIK !verify UNTUK MENDAFTAR DI Billaw-Bot`
+			tc = `MAAF KA NOMER KAMU BLOM TERDAFTAR DI DATABASE SILAHKAN KETIK !verify UNTUK MENDAFTAR DI Reteam.bot`
 			ind = {
 				wait: `⌛ Sedang di Prosess ⌛`,
 				success: `✔️ Berhasil ✔️`,
@@ -1018,11 +1018,11 @@ case 'sendbug':
                await sleep(1000)
                txtt =`Hai Kak ${pushname}\nItu Ownerku, Mau tau soal apa ya?`
 
-               buttons = [{buttonId: '!sourcecode',buttonText:{displayText: 'SC BOT'},type:1},{buttonId:'!infoig',buttonText:{displayText:'INSTAGRAM'},type:1}]
+               buttons = [{buttonId: '!sourcecode',buttonText:{displayText: 'SourceCode'},type:1},{buttonId:'!donasi',buttonText:{displayText:'Donasi'},type:1},{buttonId:'!infoig',buttonText:{displayText:'Instagram'},type:1}]
 
                buttonsMessage = {
                contentText: `${txtt}`,
-               footerText: 'Jangan Sungkan Chat Ya Kak',
+               footerText: 'Kalo chat main-main g di bales',
                buttons: buttons,
                headerType: 1
 }
@@ -1088,7 +1088,7 @@ case 'sendbug':
 							.on('start', function (cmd) {
 								console.log(`Started : ${cmd}`)
 							})
-							.on('error', function (err) {
+							.on('error ffmpeg not installed', function (err) {
 								console.log(err)
 								fs.unlinkSync(media)
 								let tipe = media.endsWith('.mp4') ? 'video' : 'gif'
@@ -1215,15 +1215,14 @@ ${ucapanWaktu} Kak ${pushname} 👋
 🔖 𝐍𝐬𝐟𝐰𝐚𝐧𝐢𝐦𝐞
 
 「 ${botName} 」
-
- 𝔍𝔞𝔫𝔤𝔞𝔫 𝔭𝔢𝔯𝔫𝔞𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔰𝔢𝔰𝔢𝔬𝔯𝔞𝔫𝔤 
-  𝔶𝔞𝔫𝔤 𝔪𝔞𝔰𝔦𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔪𝔞𝔰𝔞𝔩𝔞𝔩𝔲𝔫𝔶𝔞
+IG : reteam.id
+WEB : reteam.com 
 `
 
               
                 
 
-                    ikyy.sendMessage(from, { contentText: `${menu}`, footerText: 'Billaw-Bot', buttons: [{ buttonId: `!command`, buttonText: { displayText: '📙MENU' }, type: 1 },{ buttonId: `!sewabot`, buttonText: { displayText: '🏷️ SEWA BOT' }, type: 1 },{ buttonId: `!owner`, buttonText: { displayText: '👥 OWNER' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: ikyads, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+                    ikyy.sendMessage(from, { contentText: `${menu}`, footerText: 'Reteam.bot', buttons: [{ buttonId: `!command`, buttonText: { displayText: '📙MENU' }, type: 1 },{ buttonId: `!sewabot`, buttonText: { displayText: '🏷️ SEWA BOT' }, type: 1 },{ buttonId: `!owner`, buttonText: { displayText: '👥 OWNER' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: ikyads, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
               break
 case 'f':
 case 'lock':
@@ -1315,7 +1314,7 @@ wibu = `
 🔖 ${prefix}steel3d text1 text2
 🔖 ${prefix}wallgravity text1 text2
  `
-sendButMessage(from, wibu, `created Billaw-Bot`, [
+sendButMessage(from, wibu, `created Retem.id`, [
           {
             buttonId: `!menu`,
             buttonText: {
@@ -1365,7 +1364,7 @@ MENU
 🔖 hentai4everyone
 
 `
-                   sendButMessage(from, wibu, `Farhan ganteng`, [
+                   sendButMessage(from, wibu, `Reteam.id`, [
           {
             buttonId: `!menu`,
             buttonText: {
@@ -1426,7 +1425,7 @@ MENU
 🔖 random_hentai_gif
 
 `
-                   sendButMessage(from, wibu, `Farhan ganteng`, [
+                   sendButMessage(from, wibu, `Reteam.id`, [
           {
             buttonId: `!menu`,
             buttonText: {
@@ -1472,7 +1471,7 @@ wibu = `
 🔖 pubg text1 text2
 
 `
-                   sendButMessage(from, wibu, `farhan ganteng`, [
+                   sendButMessage(from, wibu, `Reteam.id`, [
           {
             buttonId: `!menu`,
             buttonText: {
@@ -1552,7 +1551,7 @@ wibu = `
 🔖 freefire text
 
 `
-                   sendButMessage(from, wibu, `Farhan ganteng`, [
+                   sendButMessage(from, wibu, `Reteam.id`, [
           {
             buttonId: `!menu`,
             buttonText: {
@@ -1619,7 +1618,7 @@ wibu = `
 🔖 ${prefix}picture
 
 `
-                   sendButMessage(from, wibu, `Farhan ganteng`, [
+                   sendButMessage(from, wibu, `Reteam.id`, [
           {
             buttonId: `!menu`,
             buttonText: {
@@ -1636,7 +1635,7 @@ wibu = `
 MENU INI BERISI FITUR 18+
 SEBELUM MELANJUTKAN PASTIKAN ANDA BERUMUR 18+
 `
-                   sendButMessage(from, wibu, `Farhan ganteng`, [
+                   sendButMessage(from, wibu, `Reteam.id`, [
           {
             buttonId: `!pornmenu`,
             buttonText: {
@@ -1824,8 +1823,8 @@ case 'chiisaihentai':
               buff = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/${command}?apikey=${setting.lolkey}`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'Billaw-Bot', imageMessage: imageMsg,
-              contentText:`Jangan Lupa Follow Ig:Fahd.maulana`,buttons,headerType:4}
+              buttonsMessage = {footerText:'Reteam.bot', imageMessage: imageMsg,
+              contentText:`Jangan Lupa Follow Ig:reteam.id`,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
        
@@ -1876,8 +1875,8 @@ case 'chiisaihentai':
                buff = await getBuffer(`https://api.lolhuman.xyz/api/random2/${command}?apikey=${setting.lolkey}`)
                 buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'Billaw-Bot', imageMessage: imageMsg,
-              contentText:`Jangan Lupa Follow Ig:Fahd.maulanaa`,buttons,headerType:4}
+              buttonsMessage = {footerText:'Retam.bot', imageMessage: imageMsg,
+              contentText:`Jangan Lupa Follow Ig:reteam.id`,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
         
@@ -1889,16 +1888,16 @@ case 'ppcouple':
 
 anu = await fetchJson(`https://leyscoders-api.herokuapp.com/api/ppcouple?apikey=IkyOgiwara`)
 						buff1 = await getBuffer(anu.result.male)
-						buttons = [{buttonId: `!infoig`,buttonText:{displayText: `Jangan Lupa Follow Ig:Fahd.maulanaa`},type:1}]
+						buttons = [{buttonId: `!infoig`,buttonText:{displayText: `Jangan Lupa Follow Ig:reteam.id`},type:1},{buttonId: `!donasi`,buttonText:{displayText: `Donasi 💰`},type:1},{buttonId: `!owner`,buttonText:{displayText: `Owner👑`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff1, "imageMessage", { thumbnail: buff1, })).imageMessage
-              buttonsMessage = {footerText:'Billaw-Bot', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'Reteam.bot', imageMessage: imageMsg,
               contentText:`Cowo`,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
             buff2 = await getBuffer(anu.result.female)
-              buttons = [{buttonId: `!infoig`,buttonText:{displayText: `Jangan Lupa Follow Ig:Fahd.maulanaa`},type:1}]
+              buttons = [{buttonId: `!infoig`,buttonText:{displayText: `Jangan Lupa Follow Ig:reteam.id`},type:1},{buttonId: `!donasi`,buttonText:{displayText: `Donasi 💰`},type:1},{buttonId: `!owner`,buttonText:{displayText: `Owner👑`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff2, "imageMessage", { thumbnail: buff2, })).imageMessage
-              buttonsMessage = {footerText:'Billaw-Bot', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'Reteam.bot', imageMessage: imageMsg,
               contentText:`Cewe`,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
              setTimeout( async () => {
@@ -1911,9 +1910,9 @@ case 'memek':
 
  buff = await getBuffer ('https://leyscoders-api.herokuapp.com/api/memeindo?apikey=IkyOgiwara')
 
-buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `NEXT`},type:1}]
+buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `NEXT`},type:1},{buttonId: `!donasi`,buttonText:{displayText: `Donasi 💰`},type:1},{buttonId: `!owner`,buttonText:{displayText: `Owner👑`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'Billaw-Bot', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'Reteam.bot', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
@@ -1956,10 +1955,10 @@ break
                     if (args.length == 0) return reply(`Example: ${prefix + command} LoL Human`)
                     ini_txt = args.join(" ")
                   buff = await getBuffer(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=${setting.lolkey}&text=${ini_txt}`)
-                 buttons = [{buttonId: `!menu`,buttonText:{displayText: `BACK MENU`},type:1}]
+                 buttons = [{buttonId: `!menu`,buttonText:{displayText: `BACK MENU`},type:1},{buttonId: `!donasi`,buttonText:{displayText: `Donasi 💰`},type:1},{buttonId: `!owner`,buttonText:{displayText: `Owner👑`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'Billaw-Bot', imageMessage: imageMsg,
-              contentText:`Jangan Lupa Follow Ig:Fahd.maulanaa`,buttons,headerType:4}
+              buttonsMessage = {footerText:'Reteam.bot', imageMessage: imageMsg,
+              contentText:`Jangan Lupa Follow Ig:reteam.id`,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
         
@@ -1979,10 +1978,10 @@ break
                     txt1 = args[0]
                     txt2 = args[1]
                  buff = await getBuffer(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=${setting.lolkey}&text1=${txt1}&text2=${txt2}`)
-                          buttons = [{buttonId: `!menu`,buttonText:{displayText: `BACK MENU`},type:1}]
+                          buttons = [{buttonId: `!menu`,buttonText:{displayText: `BACK MENU`},type:1},{buttonId: `!donasi`,buttonText:{displayText: `Donasi 💰`},type:1},{buttonId: `!owner`,buttonText:{displayText: `Owner👑`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'Billaw-Bot', imageMessage: imageMsg,
-              contentText:`Jangan Lupa Follow Ig:Fahd.maulanaa`,buttons,headerType:4}
+              buttonsMessage = {footerText:'Reteam.bot', imageMessage: imageMsg,
+              contentText:`Jangan Lupa Follow Ig:reteam.id`,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
         
@@ -2017,10 +2016,10 @@ break
                     if (args.length == 0) return reply(`Example: ${prefix + command} LoL Human`)
                     ini_txt = args.join(" ")
                   buff = await getBuffer(`https://api.lolhuman.xyz/api/photooxy1/${command}?apikey=${setting.lolkey}&text=${ini_txt}`)
-                          buttons = [{buttonId: `!menu`,buttonText:{displayText: `BACK MENU`},type:1}]
+                          buttons = [{buttonId: `!menu`,buttonText:{displayText: `BACK MENU`},type:1},{buttonId: `!donasi`,buttonText:{displayText: `Donasi 💰`},type:1},{buttonId: `!owner`,buttonText:{displayText: `Owner👑`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'Billaw-Bot', imageMessage: imageMsg,
-              contentText:`Jangan Lupa Follow Ig:Fahd.maulanaa`,buttons,headerType:4}
+              buttonsMessage = {footerText:'Reteam.bot', imageMessage: imageMsg,
+              contentText:`Jangan Lupa Follow Ig:reteamid`,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
         
@@ -2034,10 +2033,10 @@ break
                     txt1 = args[0]
                     txt2 = args[1]
                 buff = await getBuffer(`https://api.lolhuman.xyz/api/photooxy2/${command}?apikey=${setting.lolkey}&text1=${txt1}&text2=${txt2}`)
-                          buttons = [{buttonId: `!menu`,buttonText:{displayText: `BACK MENU`},type:1}]
+                          buttons = [{buttonId: `!menu`,buttonText:{displayText: `BACK MENU`},type:1},{buttonId: `!donasi`,buttonText:{displayText: `Donasi 💰`},type:1},{buttonId: `!owner`,buttonText:{displayText: `Owner👑`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'Billaw-Bot', imageMessage: imageMsg,
-              contentText:`Jangan Lupa Follow Ig:Fahd.maulanaa`,buttons,headerType:4}
+              buttonsMessage = {footerText:'Reteam.bot', imageMessage: imageMsg,
+              contentText:`Jangan Lupa Follow Ig:reteamid`,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
         
@@ -2078,10 +2077,10 @@ break
                     if (args.length == 0) return reply(`Example: ${prefix + command} LoL Human`)
                     ini_txt = args.join(" ")
              buff = await getBuffer(`https://api.lolhuman.xyz/api/ephoto1/${command}?apikey=${setting.lolkey}&text=${ini_txt}`)
-               buttons = [{buttonId: `!menu`,buttonText:{displayText: `BACK MENU`},type:1}]
+               buttons = [{buttonId: `!menu`,buttonText:{displayText: `BACK MENU`},type:1},{buttonId: `!donasi`,buttonText:{displayText: `Donasi 💰`},type:1},{buttonId: `!owner`,buttonText:{displayText: `Owner👑`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'Billaw-Bot', imageMessage: imageMsg,
-              contentText:`Jangan Lupa Follow Ig:Fahd.maulanaa`,buttons,headerType:4}
+              buttonsMessage = {footerText:'Reteam.bot', imageMessage: imageMsg,
+              contentText:`Jangan Lupa Follow Ig:reteam.id`,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
         
@@ -2152,9 +2151,9 @@ case "mode":
                     break
                 case 'quotesimage':
                     buff = await getBuffer(`https://api.lolhuman.xyz/api/random/${command}?apikey=${setting.lolkey}`)
-                    buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
+                    buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1},{buttonId: `!donasi`,buttonText:{displayText: `Donasi 💰`},type:1},{buttonId: `!owner`,buttonText:{displayText: `Owner👑`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'Billaw-Bot', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'Reteam.bot', imageMessage: imageMsg,
               contentText: ini_txt,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
@@ -2342,7 +2341,7 @@ case "mode":
 `
 
                buttons =  [
-    {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
+    {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},{buttonId: `!donasi`,buttonText:{displayText: `Donasi 💰`},type:1},{buttonId: `!owner`,buttonText:{displayText: `Owner👑`},type:1}
 ]
                imageMsg = (await ikyy.prepareMessageMedia(fs.readFileSync(`./media/Menu.jpg`), 'imageMessage', { thumbnail:Bfake, contextInfo:{forwardingScore: 989, isForwarded: true }})).imageMessage
 
@@ -2350,7 +2349,7 @@ case "mode":
                contentText: `${menu}`,
                footerText:  `   
 
- Billaw-Bot☕︎`, imageMessage: imageMsg,
+ Reteam.bot`, imageMessage: imageMsg,
                buttons: buttons,
                headerType: 1
 }
@@ -2390,7 +2389,7 @@ case "mode":
 `
 
                buttons =  [
-    {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
+    {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},{buttonId: `!donasi`,buttonText:{displayText: `Donasi 💰`},type:1},{buttonId: `!owner`,buttonText:{displayText: `Owner👑`},type:1}
 ]
                imageMsg = (await ikyy.prepareMessageMedia(fs.readFileSync(`./media/Menu.jpg`), 'imageMessage', { thumbnail:Bfake, contextInfo:{forwardingScore: 989, isForwarded: true }})).imageMessage
 
@@ -2398,7 +2397,7 @@ case "mode":
                contentText: `${menu}`,
                footerText:  `   
 
- Billaw-Bot☕︎`, imageMessage: imageMsg,
+ Reteam.bot`, imageMessage: imageMsg,
                buttons: buttons,
                headerType: 1
 }
@@ -2441,7 +2440,7 @@ case "mode":
 `
 
                buttons =  [
-    {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
+    {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},{buttonId: `!donasi`,buttonText:{displayText: `Donasi 💰`},type:1},{buttonId: `!owner`,buttonText:{displayText: `Owner👑`},type:1}
 ]
                imageMsg = (await ikyy.prepareMessageMedia(fs.readFileSync(`./media/Menu.jpg`), 'imageMessage', { thumbnail:Bfake, contextInfo:{forwardingScore: 989, isForwarded: true }})).imageMessage
 
@@ -2449,7 +2448,7 @@ case "mode":
                contentText: `${menu}`,
                footerText:  `   
 
- Billaw-Bot☕︎`, imageMessage: imageMsg,
+ Reteam.bot`, imageMessage: imageMsg,
                buttons: buttons,
                headerType: 1
 }
@@ -2514,7 +2513,7 @@ case "mode":
   𝔶𝔞𝔫𝔤 𝔪𝔞𝔰𝔦𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔪𝔞𝔰𝔞𝔩𝔞𝔩𝔲𝔫𝔶𝔞`
 
                buttons =  [
-    {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
+    {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},{buttonId: `!donasi`,buttonText:{displayText: `Donasi 💰`},type:1},{buttonId: `!owner`,buttonText:{displayText: `Owner👑`},type:1}
 ]
                imageMsg = (await ikyy.prepareMessageMedia(fs.readFileSync(`./media/Menu.jpg`), 'imageMessage', { thumbnail:Bfake, contextInfo:{forwardingScore: 989, isForwarded: true }})).imageMessage
 
@@ -2523,7 +2522,7 @@ case "mode":
                footerText:  `   
 
 
- Billaw-Bot☕︎`, imageMessage: imageMsg,
+ Reteam.bot`, imageMessage: imageMsg,
                buttons: buttons,
                headerType: 1
 }
@@ -2587,7 +2586,7 @@ case "mode":
 `
 
                buttons =  [
-    {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
+    {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},{buttonId: `!donasi`,buttonText:{displayText: `Donasi 💰`},type:1},{buttonId: `!owner`,buttonText:{displayText: `Owner👑`},type:1}
 ]
                imageMsg = (await ikyy.prepareMessageMedia(fs.readFileSync(`./media/Menu.jpg`), 'imageMessage', { thumbnail:Bfake, contextInfo:{forwardingScore: 989, isForwarded: true }})).imageMessage
 
@@ -2600,7 +2599,7 @@ case "mode":
  𝔍𝔞𝔫𝔤𝔞𝔫 𝔭𝔢𝔯𝔫𝔞𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔰𝔢𝔰𝔢𝔬𝔯??𝔫𝔤 
   𝔶𝔞𝔫𝔤 𝔪𝔞𝔰𝔦𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔪𝔞𝔰𝔞𝔩𝔞𝔩𝔲𝔫𝔶𝔞
 
- Billaw-Bot☕︎`, imageMessage: imageMsg,
+ Reteam.bot`, imageMessage: imageMsg,
                buttons: buttons,
                headerType: 1
 }
@@ -2652,7 +2651,7 @@ case "mode":
  `
 
                buttons =  [
-    {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
+    {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},{buttonId: `!donasi`,buttonText:{displayText: `Donasi 💰`},type:1},{buttonId: `!owner`,buttonText:{displayText: `Owner👑`},type:1}
 ]
                imageMsg = (await ikyy.prepareMessageMedia(fs.readFileSync(`./media/Menu.jpg`), 'imageMessage', { thumbnail:Bfake, contextInfo:{forwardingScore: 989, isForwarded: true }})).imageMessage
 
@@ -2665,7 +2664,7 @@ case "mode":
  𝔍𝔞𝔫𝔤𝔞𝔫 𝔭𝔢𝔯𝔫𝔞𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔰𝔢𝔰𝔢𝔬𝔯𝔞𝔫𝔤 
   𝔶𝔞𝔫𝔤 𝔪𝔞𝔰𝔦𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔪𝔞𝔰𝔞𝔩𝔞𝔩𝔲𝔫𝔶𝔞
 
- Billaw-Bot☕︎`, imageMessage: imageMsg,
+ Reteam.bot`, imageMessage: imageMsg,
                buttons: buttons,
                headerType: 1
 }
@@ -2717,7 +2716,7 @@ case "mode":
  `
 
                buttons =  [
-    {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
+    {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},{buttonId: `!donasi`,buttonText:{displayText: `Donasi 💰`},type:1},{buttonId: `!owner`,buttonText:{displayText: `Owner👑`},type:1}
 ]
                imageMsg = (await ikyy.prepareMessageMedia(fs.readFileSync(`./media/Menu.jpg`), 'imageMessage', { thumbnail:Bfake, contextInfo:{forwardingScore: 989, isForwarded: true }})).imageMessage
 
@@ -2729,7 +2728,7 @@ case "mode":
  𝔍𝔞𝔫𝔤𝔞𝔫 𝔭𝔢𝔯𝔫𝔞𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔰𝔢𝔰𝔢𝔬𝔯𝔞𝔫𝔤 
   ??𝔞𝔫𝔤 𝔪𝔞𝔰𝔦𝔥 ??𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔪𝔞𝔰𝔞𝔩𝔞𝔩𝔲𝔫𝔶𝔞
 
- Billaw-Bot☕︎`, imageMessage: imageMsg,
+ Reteam.bot`, imageMessage: imageMsg,
                buttons: buttons,
                headerType: 1
 }
@@ -2787,7 +2786,7 @@ case "mode":
  `
 
                buttons =  [
-    {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
+    {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},{buttonId: `!donasi`,buttonText:{displayText: `Donasi 💰`},type:1},{buttonId: `!owner`,buttonText:{displayText: `Owner👑`},type:1}
 ]
                imageMsg = (await ikyy.prepareMessageMedia(fs.readFileSync(`./media/Menu.jpg`), 'imageMessage', { thumbnail:Bfake, contextInfo:{forwardingScore: 989, isForwarded: true }})).imageMessage
 
@@ -2799,7 +2798,7 @@ case "mode":
  𝔍𝔞??𝔤𝔞𝔫 𝔭𝔢𝔯𝔫𝔞𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔰𝔢𝔰𝔢𝔬𝔯𝔞𝔫𝔤 
   𝔶𝔞𝔫𝔤 𝔪𝔞𝔰??𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔪𝔞𝔰𝔞𝔩𝔞𝔩??𝔫𝔶𝔞
 
- Billaw-Bot☕︎`, imageMessage: imageMsg,
+ Reteam.bot`, imageMessage: imageMsg,
                buttons: buttons,
                headerType: 1
 }
@@ -2857,7 +2856,7 @@ case "mode":
 
 
                buttons =  [
-    {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
+    {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},{buttonId: `!donasi`,buttonText:{displayText: `Donasi 💰`},type:1},{buttonId: `!owner`,buttonText:{displayText: `Owner👑`},type:1}
 ]
                imageMsg = (await ikyy.prepareMessageMedia(fs.readFileSync(`./media/Menu.jpg`), 'imageMessage', { thumbnail:Bfake, contextInfo:{forwardingScore: 989, isForwarded: true }})).imageMessage
 
@@ -2867,7 +2866,7 @@ case "mode":
 
  
 
- Billaw-Bot☕︎`, imageMessage: imageMsg,
+ Reteam.bot`, imageMessage: imageMsg,
                buttons: buttons,
                headerType: 1
 }
@@ -2927,7 +2926,7 @@ case "mode":
  𝔶𝔞𝔫𝔤 𝔪𝔞𝔰𝔦𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔪𝔞𝔰𝔞𝔩𝔞𝔩𝔲𝔫𝔶𝔞
 `
                buttons =  [
-    {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
+    {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},{buttonId: `!donasi`,buttonText:{displayText: `Donasi 💰`},type:1},{buttonId: `!owner`,buttonText:{displayText: `Owner👑`},type:1}
 ]
                imageMsg = (await ikyy.prepareMessageMedia(fs.readFileSync(`./media/Menu.jpg`), 'imageMessage', { thumbnail:Bfake, contextInfo:{forwardingScore: 989, isForwarded: true }})).imageMessage
 
@@ -2936,7 +2935,7 @@ case "mode":
                footerText:  `   
 
 
- Billaw-Bot☕︎`, imageMessage: imageMsg,
+ Reteam.bot`, imageMessage: imageMsg,
                buttons: buttons,
                headerType: 1
 }
@@ -2995,7 +2994,7 @@ case "mode":
  𝔶𝔞𝔫𝔤 𝔪𝔞𝔰𝔦𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔪𝔞𝔰𝔞𝔩𝔞𝔩𝔲𝔫𝔶𝔞 `
 
                buttons =  [
-    {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
+    {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},{buttonId: `!donasi`,buttonText:{displayText: `Donasi 💰`},type:1},{buttonId: `!owner`,buttonText:{displayText: `Owner👑`},type:1}
 ]
                imageMsg = (await ikyy.prepareMessageMedia(fs.readFileSync(`./media/Menu.jpg`), 'imageMessage', { thumbnail:Bfake, contextInfo:{forwardingScore: 989, isForwarded: true }})).imageMessage
 
@@ -3005,7 +3004,7 @@ case "mode":
                headerType: 1
 
   
- Billaw-Bot☕︎`, imageMessage: imageMsg,
+ Reteam.bot`, imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
 }
@@ -3072,7 +3071,7 @@ case 'pornmenu':
  𝔶𝔞𝔫𝔤 𝔪𝔞𝔰𝔦𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔪𝔞𝔰𝔞𝔩𝔞𝔩𝔲𝔫𝔶𝔞 `
 
                buttons =  [
-    {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
+    {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},{buttonId: `!donasi`,buttonText:{displayText: `Donasi 💰`},type:1},{buttonId: `!owner`,buttonText:{displayText: `Owner👑`},type:1}
 ]
                imageMsg = (await ikyy.prepareMessageMedia(fs.readFileSync(`./media/Menu.jpg`), 'imageMessage', { thumbnail:Bfake, contextInfo:{forwardingScore: 989, isForwarded: true }})).imageMessage
 
@@ -3082,7 +3081,7 @@ case 'pornmenu':
               
 
   
- Billaw-Bot☕︎`, imageMessage: imageMsg,
+ Reteam.bot`, imageMessage: imageMsg,
                buttons: buttons,
                headerType: 1
 }
@@ -3265,7 +3264,7 @@ Silahkan pilih tabel di bawah ini , jika tidak support silahkan ketik ! command
 
 `
                buttons =  [
-    {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
+    {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},{buttonId: `!donasi`,buttonText:{displayText: `Donasi 💰`},type:1},{buttonId: `!owner`,buttonText:{displayText: `Owner👑`},type:1}
 ]
                imageMsg = (await ikyy.prepareMessageMedia(fs.readFileSync(`./media/Menu.jpg`), 'imageMessage', { thumbnail:Bfake, contextInfo:{forwardingScore: 989, isForwarded: true }})).imageMessage
 
@@ -3275,7 +3274,7 @@ Silahkan pilih tabel di bawah ini , jika tidak support silahkan ketik ! command
   ${ucapanWaktu}
               
 
- Bilaw-Bot☕︎`, imageMessage: imageMsg,
+ Reteam.bot`, imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
 }
@@ -3287,7 +3286,7 @@ Silahkan pilih tabel di bawah ini , jika tidak support silahkan ketik ! command
    case 'command':
                list = []
                listmenu = [`groupmenu`,`photoxy`,`ephoto`,`randomimage`,`wibu2`,`storymenu`,`porno`,`randomtext`,`islammenu`,`wibumenu`,`stickermenu`,`ownermenu`,`gamemenu`,`funmenu`,`downloadmenu`,`infomenu`,`othermenu`,`owner`,`ikyygroup`,`sewabot`]
-               listmenuu = [`Menu Group`,`Photo Oky`,`Ephoto Menu`,`Random Image`,`Nsfw Anime`,`Movie&Story`,`18+ Menu`,`RandomText`,`Islam Menu`,`Wibu Menu`,`Sticker Menu`,`Owner Command`,`Game Menu`,`For Fun Menu`,`Downloader`,`Info Menu`,`Menu Lainnya`,`OwnerBot`,`Official Group`,`Rent this Bot`]
+               listmenuu = [`Menu Group`,`Photo Oky`,`Ephoto Menu`,`Random Image`,`Nsfw Anime`,`Movie&Story`,`18+ Menu`,`RandomText`,`Islam Menu`,`Wibu Menu`,`Sticker Menu`,`Owner Command`,`Game Menu`,`For Fun Menu`,`Downloader`,`Info Menu`,`Menu Lainnya`,`OwnerBot`,`JGN SPAM BGST`,`Rent this Bot`,`Bot Reteam id`]
                nombor = 1
                startnum = 0
                for (let x of listmenu) {
@@ -3302,7 +3301,7 @@ Silahkan pilih tabel di bawah ini , jika tidak support silahkan ketik ! command
                    }
                         list.push(yy)
            }
-               listmsg(from, `Halo Kak Silahkan Pilih Menu ${botName} Di Bawah Ya Kak!\nJangan Lupa Sewa Kak Xixi`, `  `, list)
+               listmsg(from, `Halo Kack Silahkan Pilih Menu ${botName} Di Bawah Ya Kack!\nJangan Lupa Support Bot Ini`, `  `, list)
                break
    
    ///ISLAMI MENU  
@@ -4109,9 +4108,9 @@ const serialUser = createSerial(18)
 *🌹 Serial:* ${serialUser}
 *🌹 Total:* ${_registered.length} Pengguna
 
-*「 Billaw-Bot 」*`
+*「 Reteam.bot 」*`
          ikyads = await getBuffer(ppimg)
-             buttons = [{buttonId: `!menu`,buttonText:{displayText: `🏷️MENU`},type:1}]
+             buttons = [{buttonId: `!menu`,buttonText:{displayText: `🏷️MENU`},type:1},{buttonId: `!donasi`,buttonText:{displayText: `Donasi 💰`},type:1},{buttonId: `!owner`,buttonText:{displayText: `Owner👑`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(ikyads, "imageMessage", { thumbnail: ikyads, })).imageMessage
               buttonsMessage = {footerText:'Jangan Lupa Donasi Ya Kak ☕', imageMessage: imageMsg,
               contentText:`${anuu}`,buttons,headerType:4}
@@ -4121,7 +4120,7 @@ const serialUser = createSerial(18)
 	    // console.log(e)
             setTimeout( () => {
 			ikyy.updatePresence(from, Presence.composing)
-			reply(`*Terimakasih Telah Terdaftar Di Billaw-Bot*`)
+			reply(`*Terimakasih Telah Terdaftar Di  Reteam.bot*`)
 		}, 2000)
         break
 case 'sfire':
@@ -4279,8 +4278,8 @@ case 'sfire':
 ┗━━⬣
 
 ┏━━⬣ MINAT? PM
-┃⬡ wa.me/6283103242015
-┃⬡ Ig Fahd.maulanaa
+┃⬡ wa.me/18589527504
+┃⬡ Ig reteam.id
 ┗━━⬣
 NB : BOT ON 24 JAM KARNA DI RUN MENGGUNAKAN RDP
 `
@@ -4322,7 +4321,7 @@ NB : BOT ON 24 JAM KARNA DI RUN MENGGUNAKAN RDP
         },
         "businessOwnerJid": sender
       },
-      "footerText": "MINAT? PC OWNER"
+      "footerText": "MINAT? PC OWNER MURAH KOK"
     }
   }, {quoted: freply})
   ikyy.relayWAMessage(list, {waitForAck: true})
@@ -5001,7 +5000,7 @@ break
               let wipu = (await axios.get(`https://raw.githubusercontent.com/Arya-was/endak-tau/main/${command}.json`)).data
               let wipi = wipu[Math.floor(Math.random() * (wipu.length))]
               fs.writeFileSync(`./${sender}.jpeg`, await getBuffer(wipi))
-		      buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
+		      buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1},{buttonId: `!donasi`,buttonText:{displayText: `Donasi 💰`},type:1},{buttonId: `!owner`,buttonText:{displayText: `Owner👑`},type:1}]
               imageMsg = ( await ikyy.prepareMessage(from, fs.readFileSync(`./${sender}.jpeg`), 'imageMessage', {thumbnail: Buffer.alloc(0)})).message.imageMessage
               buttonsMessage = {footerText:'Bilaww-Bot', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
@@ -5822,7 +5821,7 @@ break
        case 'sourcecode': 
        case 'sc': 
        case 'src':
-              textImg(`Yeh malah nyari Sc:v Tawar ae lah sama owner murah kok`)
+              textImg(`Yee malah nyari sc , gada sc sc an , Sc:v Tawar ae lah sama owner murah kok`)
               break
       case 'ping':
       case 'speed':
@@ -6122,7 +6121,7 @@ ikyy.sendMessage(_.jid,
        case 'tagall':
               if (!isGroup) return reply(mess.only.group)
               let arr = [];
-              let txti = `*[ TAG ALL ]*\n\n${q ? q : ''}\n\n`
+              let txti = `*[ T A G A L L ]*\n\n${q ? q : ''}\n\n`
               for (let i of groupMembers){
               txti += `=> @${i.jid.split("@")[0]}\n`
               arr.push(i.jid)
@@ -6316,7 +6315,7 @@ ikyy.sendMessage(_.jid,
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
                break		
-       case 'jadian':
+       case 'jodohin':
               jds = []
               jdii = groupMembers
               koss = groupMembers
@@ -6403,9 +6402,9 @@ ikyy.sendMessage(_.jid,
                thankslort = `┌──「 *INFORMATION* 」
 │
 ├ *BOT TYPE* : NodeJS
-├ *NAME*  : farhan
+├ *NAME*  : reteam id
 ├ *VERSION* : 1.0
-├ *GITHUB* : Farhan.js
+├ *GITHUB* : cari sendiri
 └──「 *${botName}* 」`
              ikyy.sendMessage(from, await getBuffer(urlinfo), image, {quoted: freply, caption: thankslort })
              break
@@ -6608,10 +6607,10 @@ case 'caripesan':  //by ANU TEAM
              break
 //------------------< Menunya Bang:v >-------------------
       case 'infoig':
-             reply(`Jangan Lupa Follow Ig Owner Ya : https://www.instagram.com/Fahd.maulanaa/`)
+             reply(`Jangan Lupa Follow Ig Owner Ya : https://www.instagram.com/reteam.id/`)
              break
       case 'ikyygroup':
-             reply('https://chat.whatsapp.com/FgYtf7pJ8gpHlkPG3VjmFy\nJangan Lupa Join Ya Kak ')
+             reply('gada\nJangan Lupa Join Ya Kak ')
              break
       
       
@@ -6676,7 +6675,7 @@ if (budy.includes(`assalamualaikum`)) {
 if (budy.includes(`anjing`)) {
                   reply(`santai jamet`)
                   }
-                  if (budy.includes(`Zetsu`)) {
+                  if (budy.includes(`wibu`)) {
                   reply(`Auto respon: Iya kenapa manggil ownerku?`)
                   }
 
@@ -6746,9 +6745,37 @@ if (budy.includes("ngentot")){
 
 		const loli = fs.readFileSync('./assets/istigfar.mp3')
 
-        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
-        }    
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})
         
+        }
+
+        if (budy.includes("Wibu")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/istigfar.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        }      
+          
+        if (budy.includes("wibu")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/istigfar.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        } 
+        
+        if (budy.includes("stay")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/istigfar.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        }           
+
         if (budy.includes("#m")){
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
 }
@@ -6985,7 +7012,7 @@ return reply(require('util').format(evaluate))
 }
 }
 if (!isGroup && isCmd && !kyy.key.fromMe){
-	tek = `Billaw-Bot`
+	tek = `Reteam.bot`
 teks = `Maaf @${senderr.split('@')[0]}, command ${prefix + command} tidak ada dalam menu`
 sendButMessage (from, teks, tek, daftar3, 'extendedTextMessage', {sendEphemeral:true, quoted:kyy, contextInfo:{ forwardingScore:508, isForwarded:true, mentionedJid:[senderr]}})
 }
