@@ -6773,7 +6773,320 @@ if (budy.includes("ngentot")){
 
 		const loli = fs.readFileSync('./assets/istigfar.mp3')
 
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})
+        
+        } 
+
+        if (budy.includes("Ynkts")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/YNTKS.mp3')
+
         ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        }
+        
+        if (budy.includes("Yowaimo")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/yowaimo.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        }
+        
+          if (budy.includes("yowaimo")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/yowaimo.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        }           
+        
+        if (budy.includes("ynkts")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/YNTKS.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        }           
+        
+        if (budy.includes("Yntks")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/YNTKS.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        }           
+        
+        if (budy.includes("yntks")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/YNTKS.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        }
+        
+          if (budy.includes("Yo")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/yowaimo.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        } 
+        
+          if (budy.includes("keras")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/Jan sok keras.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+       } 
+       
+         if (budy.includes("yoi")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/yowaimo.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        }
+        
+          if (budy.includes("Yowaimo")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/yowaimo.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        }           
+        
+          if (budy.includes("bohong")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/Pembohong.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        }  
+        
+        if (budy.includes("Bohong")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/Pembohong.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        }   
+        
+        if (budy.includes("Pembohong")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/Pembohong.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        } 
+        
+        if (budy.includes("nipu")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/Pembohong.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        } 
+        
+        if (budy.includes("penipu")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/Pembohong.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        }           
+        
+        if (budy.includes("bohong")){
+
+
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/Pembohong.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        }         
+        
+        if (budy.includes("Iklan")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/Iklan dulu.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        }           
+        
+        if (budy.includes("iklan")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/Iklan dulu.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        }  
+        
+        if (budy.includes("kata")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/Iklan dulu.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        }  
+        
+        if (budy.includes("apa")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/Ada apa gerangan.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        }     
+        
+        if (budy.includes("anj")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/Ada apa gerangan.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        }  
+        
+        if (budy.includes("babi")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/Ada apa gerangan.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        }  
+        
+        if (budy.includes("kontol")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/Ada apa gerangan.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        }
+        
+        if (budy.includes("bokep")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/Insaflah.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        }  
+        
+        if (budy.includes("Bokep")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/Insaflah.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        }
+        
+        if (budy.includes("pacar")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/Pacaran kok virtual.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        }
+        
+        if (budy.includes("tapi")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/bong.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        }
+        
+        if (budy.includes("boong")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/bong.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        }  
+        
+        if (budy.includes("iya")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/Ara.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        } 
+        
+        if (budy.includes("Astagfirullah")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/istigfar.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+        }      
+        
+        if (budy.includes("astagfirullah")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/istigfar.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
         }           
 
         if (budy.includes("#m")){
