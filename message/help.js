@@ -212,8 +212,8 @@ Sanksi: *PERMANENT BLOCK*
 Bot gw jalan awokawoak
 Jika sudah dipahami rules-nya, silakan ketik *#menu* untuk memulai!
 
-OWNER  Billaw-Bot:
-wa.me/6283103242015
+OWNER  𝑅𝑒𝑡𝑒𝑎𝑚.𝑏𝑜𝑡:
+wa.me/18589527504
 `
 }
 exports.infoMenu = (prefix) => {
