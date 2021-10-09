@@ -1172,57 +1172,57 @@ ${ucapanWaktu} Kak ${pushname} 👋
   
 「 𝑪𝑨𝑳𝑬𝑵𝑫𝑨𝑹 」
 
-🐥 Day : ${week} ${weton} 
-🐥 Date : ${date}
+❍⃝⃘۪📆 Day : ${week} ${weton} 
+❍⃝⃘۪📆 Date : ${date}
         
 「 𝒀𝑶𝑼𝑹 𝑰𝑵𝑭𝑶𝑹𝑴𝑨𝑻𝑰𝑶𝑵 」
 
-🐥 *Username:* ${pushname}
-🐥 *Bio Info:* ${thu.status}
-🐥 *Premium*: ${isPremium ? 'Ya' : 'No'}
-🐥 *Admin*: ${isGroupAdmins ? 'Ya' : 'No'}
-🐥 *Level*: ${Levelnye}
-🐥 *XP*: ${Xpluu} / ${requiredXplu}
+❍⃝⃘۪📋 𝐔𝐬𝐞𝐫𝐧𝐚𝐦𝐞: ${pushname}
+❍⃝⃘۪📋 𝐁𝐢𝐨 𝐢𝐧𝐟𝐨: ${thu.status}
+❍⃝⃘۪📋 𝐏𝐫𝐞𝐦𝐢𝐮𝐦: ${isPremium ? 'Ya' : 'No'}
+❍⃝⃘۪📋 𝐀𝐝𝐦𝐢𝐧: ${isGroupAdmins ? 'Ya' : 'No'}
+❍⃝⃘۪📋 𝐋𝐞𝐯𝐞𝐥: ${Levelnye}
+❍⃝⃘۪📋 𝐗𝐩: ${Xpluu} / ${requiredXplu}
 
 「 𝑩𝑶𝑻 𝑰𝑵𝑭𝑶𝑹𝑴𝑨𝑻𝑰𝑶𝑵 」
 
-🐥 𝐒𝐩𝐞𝐞𝐝 : *${latensie.toFixed(4)} _Second_*
-🐥 𝐀𝐜𝐭𝐢𝐯𝐞 : *${runtime(process.uptime())}*
-🐥 𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦 : *${os.platform()}*
+❍⃝⃘۪🤖 𝐒𝐩𝐞𝐞𝐝 : *${latensie.toFixed(4)} _Second_*
+❍⃝⃘۪🤖 𝐀𝐜𝐭𝐢𝐯𝐞 : *${runtime(process.uptime())}*
+❍⃝⃘۪🤖 𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦 : *${os.platform()}*
  
  
 「 𝐋𝐈𝐒𝐓 𝐌𝐄𝐍𝐔 」
 
-🔖 𝐠𝐫𝐨𝐮𝐩𝐦𝐞𝐧𝐮
-🔖 𝐰𝐢𝐛𝐮𝐦𝐞𝐧𝐮
-🔖 𝐬𝐭𝐢𝐜𝐤𝐞𝐫𝐦𝐞𝐧𝐮
-🔖 𝐨𝐰𝐧𝐞𝐫𝐦𝐞𝐧𝐮
-🔖 𝐠𝐚𝐦𝐞𝐦𝐞𝐧𝐮
-🔖 𝐟𝐮𝐧𝐦𝐞𝐧𝐮
-🔖 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐦𝐞𝐧𝐮
-🔖 𝐢𝐧𝐟𝐨𝐦𝐞𝐧𝐮
-🔖 𝐨𝐭𝐡𝐞𝐫𝐦𝐞𝐧𝐮
-🔖 𝐬𝐞𝐰𝐚𝐛𝐨𝐭
-🔖 𝟏𝟖+
-🔖 𝐢𝐬𝐥𝐚𝐦𝐦𝐞𝐧𝐮
-🔖 𝐫𝐚𝐧𝐝𝐨𝐦𝐭𝐞𝐱𝐭
-🔖 𝐦𝐨𝐯𝐢𝐞𝐦𝐞𝐧𝐮
-🔖 𝐫𝐚𝐧𝐝𝐨𝐦𝐢𝐦𝐚𝐠𝐞
-🔖 𝐞𝐩𝐡𝐨𝐭𝐨
-🔖 𝐩𝐡𝐨𝐭𝐨𝐤𝐲
-🔖 𝐭𝐞𝐱𝐭𝐩𝐫𝐨
-🔖 𝐈𝐦𝐚𝐠𝐞𝐦𝐚𝐧𝐢
-🔖 𝐍𝐬𝐟𝐰𝐚𝐧𝐢𝐦𝐞
+࿊⃟⚙️ 𝐠𝐫𝐨𝐮𝐩𝐦𝐞𝐧𝐮
+࿊⃟🧸 𝐰𝐢𝐛𝐮𝐦𝐞𝐧𝐮
+࿊⃟🖼️ 𝐬𝐭𝐢𝐜𝐤𝐞𝐫𝐦𝐞𝐧𝐮
+࿊⃟👥 𝐨𝐰𝐧𝐞𝐫𝐦𝐞𝐧𝐮
+࿊⃟🎮 𝐠𝐚𝐦𝐞𝐦𝐞𝐧𝐮
+࿊⃟🤹 𝐟𝐮𝐧𝐦𝐞𝐧𝐮
+࿊⃟📱 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐦𝐞𝐧𝐮
+࿊⃟📃 𝐢𝐧𝐟𝐨𝐦𝐞𝐧𝐮
+࿊⃟📝 𝐨𝐭𝐡𝐞𝐫𝐦𝐞𝐧𝐮
+࿊⃟💸 𝐬𝐞𝐰𝐚𝐛𝐨𝐭
+࿊⃟🔞 𝟏𝟖+
+࿊⃟🕌 𝐢𝐬𝐥𝐚𝐦𝐦𝐞𝐧𝐮
+࿊⃟💈 𝐫𝐚𝐧𝐝𝐨𝐦𝐭𝐞𝐱𝐭
+࿊⃟📹 𝐦𝐨𝐯𝐢𝐞𝐦𝐞𝐧𝐮
+࿊⃟🎲 𝐫𝐚𝐧𝐝𝐨𝐦𝐢𝐦𝐚𝐠𝐞
+࿊⃟📸 𝐞𝐩𝐡𝐨𝐭𝐨
+࿊⃟🖌️ 𝐩𝐡𝐨𝐭𝐨𝐤𝐲
+࿊⃟🖋️ 𝐭𝐞𝐱𝐭𝐩𝐫𝐨
+࿊⃟🎟️ 𝐈𝐦𝐚𝐠𝐞𝐦𝐚𝐧𝐢
+࿊⃟🎁 𝐍𝐬𝐟𝐰𝐚𝐧𝐢𝐦𝐞
 
 「 ${botName} 」
-IG : reteam.id
+IG : reteam id
 WEB : reteam.com 
 `
 
               
                 
 
-                    ikyy.sendMessage(from, { contentText: `${menu}`, footerText: 'Reteam.bot', buttons: [{ buttonId: `!command`, buttonText: { displayText: '📙MENU' }, type: 1 },{ buttonId: `!sewabot`, buttonText: { displayText: '🏷️ SEWA BOT' }, type: 1 },{ buttonId: `!owner`, buttonText: { displayText: '👥 OWNER' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: ikyads, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+                    ikyy.sendMessage(from, { contentText: `${menu}`, footerText: 'Reteam.bot', buttons: [{ buttonId: `!command`, buttonText: { displayText: '📚MENU' }, type: 1 },{ buttonId: `!sewabot`, buttonText: { displayText: '️💸 SEWA BOT' }, type: 1 },{ buttonId: `!owner`, buttonText: { displayText: '👑 OWNER' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: ikyads, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
               break
 case 'f':
 case 'lock':
@@ -1343,32 +1343,32 @@ case 'nsfwanime':
 if (!isRegistered) return reply(ind.only.daftarB)
 wibu = `
 MENU
-🔖 chiisaihentai
-🔖 trap
-🔖 blowjob
-🔖 yaoi
-🔖 ecchi
-🔖 hentai
-🔖 ahegao
-🔖 hololewd
-🔖 sideoppai
-🔖 animefeets
-🔖 animebooty
-🔖 animethighss
-🔖 hentaiparadise
-🔖 animearmpits
-🔖 hentaifemdom
-🔖 lewdanimegirls
-🔖 biganimetiddies
-🔖 animebellybutton
-🔖 hentai4everyone
+🔞 chiisaihentai
+🔞 trap
+🔞 blowjob
+🔞 yaoi
+🔞 ecchi
+🔞 hentai
+🔞 ahegao
+🔞 hololewd
+🔞 sideoppai
+🔞 animefeets
+🔞 animebooty
+🔞 animethighss
+🔞 hentaiparadise
+🔞 animearmpits
+🔞 hentaifemdom
+🔞 lewdanimegirls
+🔞 biganimetiddies
+🔞 animebellybutton
+🔞 hentai4everyone
 
 `
                    sendButMessage(from, wibu, `Reteam.id`, [
           {
             buttonId: `!menu`,
             buttonText: {
-              displayText: `⬡ BACK TO MENU `,
+              displayText: `⬡ 🔙BACK TO MENU `,
             },
             type: 1,
           },]);
@@ -1429,7 +1429,7 @@ MENU
           {
             buttonId: `!menu`,
             buttonText: {
-              displayText: `⬡ BACK TO MENU `,
+              displayText: `⬡ 🔙BACK TO MENU `,
             },
             type: 1,
           },]);
@@ -1441,41 +1441,41 @@ if (!isRegistered) return reply(ind.only.daftarB)
 wibu = `
 𝐏𝐇𝐎𝐓𝐎 𝐎𝐗𝐘
 
-🔖 shadow text
-🔖 cup text
-🔖 cup1 text
-🔖 romance text
-🔖 smoke text
-🔖 burnpaper text
-🔖 lovemessage text
-🔖 undergrass text
-🔖 love text
-🔖 coffe text
-🔖 woodheart text
-🔖 woodenboard text
-🔖 summer3d text
-🔖 wolfmetal text
-🔖 nature3d text
-🔖 underwater text
-🔖 golderrose text
-🔖 summernature text
-🔖 letterleaves text
-🔖 glowingneon text
-🔖 fallleaves text
-🔖 flamming text
-🔖 harrypotter text
-🔖 carvedwood text
-🔖 tiktok text1 text2
-🔖 arcade8bit text1 text2
-🔖 battlefield4 text1 text2
-🔖 pubg text1 text2
+🖼 shadow text
+🖼 cup text
+🖼 cup1 text
+🖼 romance text
+🖼 smoke text
+🖼 burnpaper text
+🖼 lovemessage text
+🖼 undergrass text
+🖼 love text
+🖼 coffe text
+🖼 woodheart text
+🖼 woodenboard text
+🖼 summer3d text
+🖼 wolfmetal text
+🖼 nature3d text
+🖼 underwater text
+🖼 golderrose text
+🖼 summernature text
+🖼 letterleaves text
+🖼 glowingneon text
+🖼 fallleaves text
+🖼 flamming text
+🖼 harrypotter text
+🖼 carvedwood text
+🖼 tiktok text1 text2
+🖼 arcade8bit text1 text2
+🖼 battlefield4 text1 text2
+🖼️ pubg text1 text2
 
 `
                    sendButMessage(from, wibu, `Reteam.id`, [
           {
             buttonId: `!menu`,
             buttonText: {
-              displayText: `⬡ BACK TO MENU `,
+              displayText: `⬡ 🔙BACK TO MENU `,
             },
             type: 1,
           },]);
@@ -1506,10 +1506,10 @@ wibu = `
 					case 'darkjoke': 
 				
 				buff = await getBuffer(`http://lolhuman.herokuapp.com/api/meme/darkjoke?apikey={lolkey}`, {method: 'get'})
-				buttons = [{buttonId: `!infoig`,buttonText:{displayText: ` Jangan Lupa Follow Ig: Fahd.maulanaa`},type:1}]
+				buttons = [{buttonId: `!infoig`,buttonText:{displayText: ` Follow ig reteam.id`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'Billaww-Bot', imageMessage: imageMsg,
-              contentText:`Jangan Lupa Follow Ig:Fahd.maulanaa`,buttons,headerType:4}
+              buttonsMessage = {footerText:'Reteam.bot', imageMessage: imageMsg,
+              contentText:`Follow ig reteam id`,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
 break
@@ -1519,43 +1519,43 @@ if (!isRegistered) return reply(ind.only.daftarB)
 wibu = `
 「 𝐄𝐏𝐇𝐎𝐓𝐎 360 」
 
-🔖 wetglass text
-🔖 multicolor3d text
-🔖 watercolor text
-🔖 luxurygold text
-🔖 galaxywallpaper text
-🔖 lighttext text
-🔖 beautifulflower text
-🔖 puppycute text
-🔖 royaltext text
-🔖 heartshaped text
-🔖 birthdaycake text
-🔖 galaxystyle text
-🔖 hologram3d text
-🔖 greenneon text
-🔖 glossychrome text
-🔖 greenbush text
-🔖 metallogo text
-🔖 noeltext text
-🔖 glittergold text
-🔖 textcake text
-🔖 starsnight text
-🔖 wooden3d text
-🔖 textbyname text
-🔖 writegalacy text
-🔖 galaxybat text
-🔖 snow3d text
-🔖 birthdayday text
-🔖 goldplaybutton text
-🔖 silverplaybutton text
-🔖 freefire text
+📸  wetglass text
+📸 multicolor3d text
+📸 watercolor text
+📸 luxurygold text
+📸 galaxywallpaper text
+📸 lighttext text
+📸 beautifulflower text
+📸 puppycute text
+📸 royaltext text
+📸 heartshaped text
+📸 birthdaycake text
+📸 galaxystyle text
+📸 hologram3d text
+📸 greenneon text
+📸 glossychrome text
+📸 greenbush text
+📸 metallogo text
+📸 noeltext text
+📸 glittergold text
+📸 textcake text
+📸 starsnight text
+📸 wooden3d text
+📸 textbyname text
+📸 writegalacy text
+📸 galaxybat text
+📸 snow3d text
+📸 birthdayday text
+📸 goldplaybutton text
+📸 silverplaybutton text
+📸 freefire text
 
 `
                    sendButMessage(from, wibu, `Reteam.id`, [
           {
             buttonId: `!menu`,
             buttonText: {
-              displayText: `⬡ BACK TO MENU `,
+              displayText: `⬡ 🔙BACK TO MENU `,
             },
             type: 1,
           },]);
@@ -1622,7 +1622,7 @@ wibu = `
           {
             buttonId: `!menu`,
             buttonText: {
-              displayText: `⬡ BACK TO MENU `,
+              displayText: `⬡ 🔙BACK TO MENU `,
             },
             type: 1,
           },]);
