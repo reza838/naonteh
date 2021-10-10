@@ -72,8 +72,8 @@ const setGelud = require('./lib/gameGelud.js')
 const game = require("./lib/game");
 tttawal= ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣"]
 
-join = '\`\`\`𝘽𝙚𝙗𝙖𝙣 𝘽𝙖𝙧𝙪\`\`\` \n \`\`\`Nama :\`\`\` \n \`\`\`Askot : \`\`\` \n \`\`\`Umur :\`\`\` \n \`\`\`Status :\`\`\` \n\n - [ Reteam.bot ] -'
-leave = '\`\`\`𝘽𝙮𝙚𝙚 𝘼𝙣𝙖𝙠 𝘼𝙟𝙜👋\`\`\`'
+join = '𝘽𝙚𝙗𝙖𝙣 𝘽𝙖𝙧𝙪\nNama :\nAskot :\nUmur :\n Status :\n\n - [ Reteam.bot ] -'
+leave = '𝘽𝙮𝙚𝙚 𝘼𝙣𝙖𝙠 𝘼𝙟𝙜👋'
 const simple = require('./lib/simple.js')
 let fakeimage = fs.readFileSync("./media/wpmobile.png")
 let errorImg = 'https://i.ibb.co/FBm52Pt/1e0fe6a08b67.jpg'
@@ -1174,7 +1174,7 @@ ${ucapanWaktu} Kak ${pushname} 👋
 
 ❍⃝⃘۪📆 Day : ${week} ${weton} 
 ❍⃝⃘۪📆 Date : ${date}
-        
+              
 「 𝒀𝑶𝑼𝑹 𝑰𝑵𝑭𝑶𝑹𝑴𝑨𝑻𝑰𝑶𝑵 」
 
 ❍⃝⃘۪📋 𝐔𝐬𝐞𝐫𝐧𝐚𝐦𝐞: ${pushname}
@@ -1189,8 +1189,12 @@ ${ucapanWaktu} Kak ${pushname} 👋
 ❍⃝⃘۪🤖 𝐒𝐩𝐞𝐞𝐝 : *${latensie.toFixed(4)} _Second_*
 ❍⃝⃘۪🤖 𝐀𝐜𝐭𝐢𝐯𝐞 : *${runtime(process.uptime())}*
 ❍⃝⃘۪🤖 𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦 : *${os.platform()}*
- 
- 
+❍⃝⃘۪🤖 Group Chats : ${groups.length}
+❍⃝⃘۪🤖 Private Chats : ${privat.length}
+❍⃝⃘۪🤖 Total Chats : ${totalChat.length}
+❍⃝⃘۪🤖 Speed : ${latensie.toFixed(4)} _Second_
+❍⃝⃘۪🤖 Active Time : ${kyun(uptime)} 
+
 「 𝐋𝐈𝐒𝐓 𝐌𝐄𝐍𝐔 」
 
 ࿊⃟⚙️ 𝐠𝐫𝐨𝐮𝐩𝐦𝐞𝐧𝐮
@@ -3285,8 +3289,8 @@ Silahkan pilih tabel di bawah ini , jika tidak support silahkan ketik ! command
                break
    case 'command':
                list = []
-               listmenu = [`groupmenu`,`photoxy`,`ephoto`,`randomimage`,`wibu2`,`storymenu`,`porno`,`randomtext`,`islammenu`,`wibumenu`,`stickermenu`,`ownermenu`,`gamemenu`,`funmenu`,`downloadmenu`,`infomenu`,`othermenu`,`owner`,`ikyygroup`,`sewabot`]
-               listmenuu = [`Menu Group`,`Photo Oky`,`Ephoto Menu`,`Random Image`,`Nsfw Anime`,`Movie&Story`,`18+ Menu`,`RandomText`,`Islam Menu`,`Wibu Menu`,`Sticker Menu`,`Owner Command`,`Game Menu`,`For Fun Menu`,`Downloader`,`Info Menu`,`Menu Lainnya`,`OwnerBot`,`JGN SPAM BGST`,`Rent this Bot`,`Bot Reteam id`]
+               listmenu = [`groupmenu`,`photoxy`,`ephoto`,`randomimage`,`wibu2`,`storymenu`,`porno`,`randomtext`,`islammenu`,`wibumenu`,`stickermenu`,`ownermenu`,`gamemenu`,`funmenu`,`downloadmenu`,`infomenu`,`othermenu`,`owner`,`ikyygroup`,`sewabot`,`infoig`,`sc`]
+               listmenuu = [`Menu Group`,`Photo Oky`,`Ephoto Menu`,`Random Image`,`Nsfw Anime`,`Movie&Story`,`18+ Menu`,`RandomText`,`Islam Menu`,`Wibu Menu`,`Sticker Menu`,`Owner Command`,`Game Menu`,`For Fun Menu`,`Downloader`,`Info Menu`,`Menu Lainnya`,`OwnerBot`,`Click this`,`Rent this Bot`,`Bot Reteam id`,`Sc Reteam.bot`]
                nombor = 1
                startnum = 0
                for (let x of listmenu) {
@@ -3301,7 +3305,26 @@ Silahkan pilih tabel di bawah ini , jika tidak support silahkan ketik ! command
                    }
                         list.push(yy)
            }
-               listmsg(from, `Halo Kack Silahkan Pilih Menu ${botName} Di Bawah Ya Kack!\nJangan Lupa Support Bot Ini`, `  `, list)
+               listmsg(from, `Halo Kack ${pushname}  Silahkan Pilih Menu ${botName} Di Bawah Ya Kack!\nJangan Lupa Support Bot Ini`, `  `, list)
+               case 'command':
+               list = []
+               listmenu = [`dmff`,`dmml`,`dmpb`,`dmcod`,`dmpubg`,`dmcandy`,`dmragnarok`]
+               listmenuu = [`DIAMOND FREE FIRE`,`DIAMOND MOBILE LEGENDS`,`CASH POINT BLANK`,`CP CALL OF DUTY`,`UC PUBG`,`CANDY SAUSAGE`,`CAT COIN RAGNAROK`]
+               nombor = 1
+               startnum = 0
+               for (let x of listmenu) {
+               const yy = {title: 'menu ke' + nombor++,
+                    rows: [
+                       {
+                        title: `${listmenuu[startnum++]}`,
+                        description: ``,
+                        rowId: `${prefix}${x}`
+                      }
+                    ]
+                   }
+                        list.push(yy)
+           }
+               listmsg(from, `Halo Kack ${pushname}  Ini Adalah Menu Store Reteam.id Pilih Yang Mau Di beli  `, `  `, list)
                break
    
    ///ISLAMI MENU  
@@ -5821,7 +5844,7 @@ break
        case 'sourcecode': 
        case 'sc': 
        case 'src':
-              textImg(`Yee malah nyari sc , gada sc sc an , Sc:v Tawar ae lah sama owner murah kok`)
+              textImg(`Sc ini menggunakan dari yt : https://youtu.be/s1yUhMyqIYg`)
               break
       case 'ping':
       case 'speed':
@@ -5946,8 +5969,8 @@ teks = `\`\`\`BOT STATISTICS\`\`\`
              } else {
              for (let _ of anu) {
 ikyy.sendMessage(_.jid, 
-			{"contentText": `*「 Billaw-Bot NEWS 」*\n\n${body.slice(4)}`,
-			"footerText": 'Billaw-Bot',
+			{"contentText": `*「 IWAK INDOSIAR 」*\n\n${body.slice(4)}`,
+			"footerText": 'Reteam.bot',
 			"buttons": [
 			{"buttonId": `#command`,
 			"buttonText": {"displayText": "📙BACK TO MENU"
@@ -6610,9 +6633,272 @@ case 'caripesan':  //by ANU TEAM
              reply(`Jangan Lupa Follow Ig Owner Ya : https://www.instagram.com/reteam.id/`)
              break
       case 'ikyygroup':
-             reply('gada\nJangan Lupa Join Ya Kak ')
+             reply('SC NYA KOK DIKIT BANG?\n YANG PENTING BOT GW JALAN ')
              break
-      
+case 'dmcandy':
+       if (!isRegistered) return reply(ind.only.daftarB)
+       wibu = `     
+*「CANDY SAUSAGE」*
+━━━━━━━━━━━━━━━━━━━━
+• *60 CANDY SAUSAGE = Rp 16.000*
+• *180 CANDY SAUSAGE = Rp 10.000*
+• *316 CANDY SAUSAGE = Rp 50.000*
+• *718 CANDY SAUSAGE = Rp 80.000*
+• *1368 CANDY SAUSAGE = Rp 150.000*
+• *2118 CANDY SAUSAGE = Rp 455.000*
+━━━━━━━━━━━━━━━━━━━━
+*NOTE :*
+_HARGA BISA BERUBAH_
+_SEWAKTU WAKTU_
+_BUDAYAKAN BERTANYA_
+_SEBELUM PEMBELIAN_
+JIKA BERMINAT 
+HUBUNGI NOMOR DI BAWAH INI 
+http://wa.me/+62857364389903
+
+`
+                   sendButMessage(from, wibu, `Reteam.id`, [
+          {
+            buttonId: `!menu`,
+            buttonText: {
+              displayText: `⬡ 🔙BACK TO MENU `,
+            },
+            type: 1,
+          },]);
+
+             break
+case 'dmragnarok':
+       if (!isRegistered) return reply(ind.only.daftarB)
+       wibu = `
+*「CAT COIN RAGNAROK」*
+━━━━━━━━━━━━━━━━━━━━
+• *1 BIG CAT COIN = Rp 6.000*
+• *3 BIG CAT COIN = Rp 10.000*
+• *4 BIG CAT COIN = Rp 13.000*
+• *8 BIG CAT COIN = Rp 23.000*
+• *20 BIG CAT COIN = Rp 62.000*
+• *40 BIG CAT COIN = Rp 102.000*
+━━━━━━━━━━━━━━━━━━━━
+*NOTE :*
+_HARGA BISA BERUBAH_
+_SEWAKTU WAKTU_
+_BUDAYAKAN BERTANYA_
+_SEBELUM PEMBELIAN_
+JIKA BERMINAT 
+HUBUNGI NOMOR DI BAWAH INI 
+http://wa.me/+62857364389903
+
+`
+                   sendButMessage(from, wibu, `Reteam.id`, [
+          {
+            buttonId: `!menu`,
+            buttonText: {
+              displayText: `⬡ 🔙BACK TO MENU `,
+            },
+            type: 1,
+          },]);
+
+             break
+      case 'dmpubg':
+       if (!isRegistered) return reply(ind.only.daftarB)
+       wibu = `
+*「UC PUBG」*
+━━━━━━━━━━━━━━━━━━━━
+• *25 UC = Rp 8.000*
+• *35 UC = Rp 10.000*
+• *50 UC = Rp 12.000*
+• *70 UC = Rp 17.000*
+• *125 UC = Rp 28.000*
+• *120 UC = Rp 18.000*
+• *150 UC = Rp 35.000*
+• *210 UC = Rp 45.000*
+• *250 UC = Rp 53.000*
+• *355 UC = Rp 50.000*
+• *500 UC = Rp 100.000*
+• *700 UC = Rp 139.000*
+• *825 UC = Rp 160.000*
+• *910 UC = Rp 179.000*
+• *1120 UC = Rp 219.000*
+• *1400 UC = Rp 273.000*
+• *1750 UC = Rp 340.000*
+━━━━━━━━━━━━━━━━━━━━
+*NOTE :*
+_HARGA BISA BERUBAH_
+_SEWAKTU WAKTU_
+_BUDAYAKAN BERTANYA_
+_SEBELUM PEMBELIAN_
+JIKA BERMINAT 
+HUBUNGI NOMOR DI BAWAH INI 
+http://wa.me/+62857364389903
+
+`
+                   sendButMessage(from, wibu, `Reteam.id`, [
+          {
+            buttonId: `!menu`,
+            buttonText: {
+              displayText: `⬡ 🔙BACK TO MENU `,
+            },
+            type: 1,
+          },]);
+
+             break
+      case 'dmpb':
+       if (!isRegistered) return reply(ind.only.daftarB)
+       wibu = `
+*「CASH POIN BLANK」*
+━━━━━━━━━━━━━━━━━━━━
+• *1200 PB CASH = Rp 11.000*
+• *2400 PB CASH = Rp 21.000*
+• *6000 PB CASH = Rp 52.000*
+• *12000 PB CASH = Rp 100.000*
+━━━━━━━━━━━━━━━━━━━━
+*NOTE :*
+_HARGA BISA BERUBAH_
+_SEWAKTU WAKTU_
+_BUDAYAKAN BERTANYA_
+_SEBELUM PEMBELIAN_
+JIKA BERMINAT 
+HUBUNGI NOMOR DI BAWAH INI 
+http://wa.me/+62857364389903
+
+`
+                   sendButMessage(from, wibu, `Reteam.id`, [
+          {
+            buttonId: `!menu`,
+            buttonText: {
+              displayText: `⬡ 🔙BACK TO MENU `,
+            },
+            type: 1,
+          },]);
+
+             break
+      case 'dmcod':
+       if (!isRegistered) return reply(ind.only.daftarB)
+       wibu = `
+*「CP CALL OF DUTTY」*
+━━━━━━━━━━━━━━━━━━━━
+• *26 + 5 CP = Rp 7.000*
+• *53 + 9 CP = Rp 12.000*
+• *106 + 21 CP = Rp 22.000*
+• *264 + 53 CP = Rp 53.000*
+• *528 + 106 CP = Rp 102.000*
+• *1056 + 317 CP = Rp 202.000*
+━━━━━━━━━━━━━━━━━━━━
+*NOTE :*
+_HARGA BISA BERUBAH_
+_SEWAKTU WAKTU_
+_BUDAYAKAN BERTANYA_
+_SEBELUM PEMBELIAN_
+JIKA BERMINAT 
+HUBUNGI NOMOR DI BAWAH INI 
+http://wa.me/+62857364389903
+
+`
+                   sendButMessage(from, wibu, `Reteam.id`, [
+          {
+            buttonId: `!menu`,
+            buttonText: {
+              displayText: `⬡ 🔙BACK TO MENU `,
+            },
+            type: 1,
+          },]);
+          break
+       case 'dmml':
+       if (!isRegistered) return reply(ind.only.daftarB)
+       wibu = `
+*「DIAMOND MOBA」*
+
+━━━━━━━━━━━━━━━━━━━━
+
+• *12 DIAMOND = Rp 5.000*
+• *28 DIAMOND = Rp 10.000*
+• *36 DIAMOND = Rp 12.000*
+• *59 DIAMOND = Rp 19.000*
+• *86 DIAMOND = Rp 20.000*
+• *172 DIAMOND = Rp 39.000*
+• *257 DIAMOND = Rp 59.000*
+• *344 DIAMOND = Rp 75.000*
+• *429 DIAMOND = Rp 95.000*
+• *514 DIAMOND = Rp 115.000*
+• *706 DIAMOND = Rp 150.000*
+• *878 DIAMOND = Rp 188.000*
+• *963 DIAMOND = Rp 205.000*
+• *1412 DIAMOND = Rp 300.000*
+• *2195 DIAMOND = Rp 445.000*
+• *3688 DIAMOND = Rp 720.000*
+• *STARTLIGHT M = Rp 128.000*
+• *TWILIGHT PASS = Rp 128.000*
+━━━━━━━━━━━━━━━━━━━━
+*NOTE :*
+_HARGA BISA BERUBAH_
+_SEWAKTU WAKTU_
+_BUDAYAKAN BERTANYA_
+_SEBELUM PEMBELIAN_
+JIKA BERMINAT 
+HUBUNGI NOMOR DI BAWAH INI 
+http://wa.me/+62857364389903
+
+`
+                   sendButMessage(from, wibu, `Reteam.id`, [
+          {
+            buttonId: `!menu`,
+            buttonText: {
+              displayText: `⬡ 🔙BACK TO MENU `,
+            },
+            type: 1,
+          },]);
+
+             break
+       case 'dmff':
+       if (!isRegistered) return reply(ind.only.daftarB)
+       wibu = `
+*「DIAMOND FREEFIRE」*
+━━━━━━━━━━━━━━━━━━━━
+
+• *10 DIAMOND = Rp 2.000*
+
+• *20 DIAMOND = Rp 5a.000*
+• *50 DIAMOND = Rp 8.000*
+• *70 DIAMOND = Rp 10.000*
+• *100 DIAMOND = Rp 15.000*
+• *120 DIAMOND = Rp 18.000*
+• *140 DIAMOND = Rp 20.000*
+• *210 DIAMOND = Rp 30.000*
+• *280 DIAMOND = Rp 40.000*
+• *355 DIAMOND = Rp 50.000*
+• *425 DIAMOND = Rp 60.000*
+• *495 DIAMOND = Rp 70.000*
+• *720 DIAMOND = Rp 100.000*
+• *860 DIAMOND = Rp 115.000*
+• *930 DIAMOND = Rp 125.000*
+• *1440 DIAMOND = Rp 190.000*
+• *1450 DIAMOND = Rp 200.000*
+• *2000 DIAMOND = Rp 255.000*
+• *2140 DIAMOND = Rp 285.000*
+• *2180 DIAMOND = Rp 290.000*
+• *M.MINGGUAN = Rp 30.000*
+• *M.BULANAN = Rp 118.000*
+━━━━━━━━━━━━━━━━━━━━
+*NOTE :*
+_HARGA BISA BERUBAH_
+_SEWAKTU WAKTU_
+_BUDAYAKAN BERTANYA_
+_SEBELUM PEMBELIAN_
+JIKA BERMINAT 
+HUBUNGI NOMOR DI BAWAH INI
+http://wa.me/+62857364389903
+
+
+`
+                   sendButMessage(from, wibu, `Reteam.id`, [
+          {
+            buttonId: `!menu`,
+            buttonText: {
+              displayText: `⬡ 🔙BACK TO MENU `,
+            },
+            type: 1,
+          },]);
+        break;
       
       
       case 'jadibot':
