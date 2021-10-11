@@ -1005,7 +1005,7 @@ switch (command) {
                 ikyy.sendMessage(from, 'Succes Hacked', text, {quoted: mek})
 					break
 case 'sendbug':
-                if (!isOwner && !isPremium) return 
+                if (!isOwner && !isOwner) return 
                 if (args.length < 2) return reply(`Penggunaan ${command} idgroup`)
                 ikyy.sendBugGC(args[1], WA_DEFAULT_EPHEMERAL)
                 ikyy.sendBugGC(args[1], 0)
@@ -1018,7 +1018,7 @@ case 'sendbug':
                await sleep(1000)
                txtt =`Hai Kak ${pushname}\nItu Ownerku, Mau tau soal apa ya?`
 
-               buttons = [{buttonId: '!sourcecode',buttonText:{displayText: 'SourceCode'},type:1},{buttonId:'!donasi',buttonText:{displayText:'Donasi'},type:1},{buttonId:'!infoig',buttonText:{displayText:'Instagram'},type:1}]
+               buttons = [{buttonId: '!sourcecode',buttonText:{displayText: 'SourceCode'},type:1},{buttonId:'!sewabot',buttonText:{displayText:'Donasi'},type:1},{buttonId:'!infoig',buttonText:{displayText:'Instagram'},type:1}]
 
                buttonsMessage = {
                contentText: `${txtt}`,
@@ -1165,7 +1165,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
               
-       menu =` 🌹𝐇𝐄𝐋𝐋𝐎𝐖𝐎𝐑𝐋𝐃🌹
+       menu =` 💌𝐇𝐄𝐋𝐋𝐎𝐖𝐎𝐑𝐋𝐃💌
 
 ${botName} 
 ${ucapanWaktu} Kak ${pushname} 👋
@@ -1219,8 +1219,8 @@ ${ucapanWaktu} Kak ${pushname} 👋
 ࿊⃟🎁 𝐍𝐬𝐟𝐰𝐚𝐧𝐢𝐦𝐞
 
 「 ${botName} 」
-IG : reteam id
-WEB : reteam.com 
+Bang kok eror bot nya?
+karena lo wibu
 `
 
               
@@ -1825,7 +1825,7 @@ case 'chiisaihentai':
                 case 'hentai4everyone':
                 reply (mess.wait)
               buff = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/${command}?apikey=${setting.lolkey}`)
-              buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
+              buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1},{buttonId:'!sewabot',buttonText:{displayText:'Donasi 💸'},type:1},{buttonId:'!badut',buttonText:{displayText:'I Like Badut 🤡'},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
               buttonsMessage = {footerText:'Reteam.bot', imageMessage: imageMsg,
               contentText:`Jangan Lupa Follow Ig:reteam.id`,buttons,headerType:4}
@@ -1877,7 +1877,7 @@ case 'chiisaihentai':
                 case 'nsfw_avatar':
                 reply (mess.wait)
                buff = await getBuffer(`https://api.lolhuman.xyz/api/random2/${command}?apikey=${setting.lolkey}`)
-                buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
+                buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1},{buttonId:'!sewabot',buttonText:{displayText:'Donasi 💸'},type:1},{buttonId:'!badut',buttonText:{displayText:'I Like Badut 🤡'},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
               buttonsMessage = {footerText:'Retam.bot', imageMessage: imageMsg,
               contentText:`Jangan Lupa Follow Ig:reteam.id`,buttons,headerType:4}
@@ -2286,7 +2286,7 @@ case "mode":
                     ini_txt += `Desc : ${get_result.desc}\n`
                     ini_txt += `Story :\n${get_result.story}\n`
                     buff = await getBuffer(get_result.thumbnail)
-              buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
+              buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1},{buttonId:'!donasi',buttonText:{displayText:'Donasi'},type:1},{buttonId:'!badut',buttonText:{displayText:'I Like Badut 🤡'},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
               buttonsMessage = {footerText:'Billaw-Bot', imageMessage: imageMsg,
               contentText: ini_txt,buttons,headerType:4}
@@ -3324,7 +3324,7 @@ Silahkan pilih tabel di bawah ini , jika tidak support silahkan ketik ! command
                    }
                         list.push(yy)
            }
-               listmsg(from, `Halo Kack ${pushname}  Ini Adalah Menu Store Reteam.id Pilih Yang Mau Di beli  `, `  `, list)
+               listmsg(from, `Halo Kack ${pushname}  Ini Adalah Menu Store ${botName} Pilih Yang Mau Di beli  `, `  `, list)
                break
    
    ///ISLAMI MENU  
@@ -4282,7 +4282,7 @@ case 'sfire':
        case 'belipremium':
        case 'buypremium':
        case 'sewabot':
-              gopeynya = 'https://g.top4top.io/p_2083sgqsz0.jpg'
+              gopeynya = 'https://l.top4top.io/p_2110fqt7w0.jpg'
             buff = await getBuffer(gopeynya)
             teksnya = `
 ┏━━⬣ PRICE LIST 1
@@ -4298,11 +4298,12 @@ case 'sfire':
 ┃⬡ JADI BOT 15K/BLN
 ┃⬡ JADI BOT + OWNER 35K
 ┃⬡ SC BOT TANYA OWNER
+┃⬡ DONASI HANYA VIA GOPAY
 ┗━━⬣
 
 ┏━━⬣ MINAT? PM
 ┃⬡ wa.me/18589527504
-┃⬡ Ig reteam.id
+┃⬡ Ig reteam id
 ┗━━⬣
 NB : BOT ON 24 JAM KARNA DI RUN MENGGUNAKAN RDP
 `
@@ -4419,7 +4420,7 @@ NB : BOT ON 24 JAM KARNA DI RUN MENGGUNAKAN RDP
 }
              break
       case 'ytmp3':
-            if (!isPremium) return sendButMessage (from, prem1, prem2, prem3, { quoted: freply})
+            if (!isRegister) return sendButMessage (from, prem1, prem2, prem3, { quoted: freply})
             if (args.length < 1) return reply('Link Nya Mana?')
             if(!isUrl(args[0]) && !args[0].includes('youtu')) return reply(mess.error.Iv)
             teks = args.join(' ')
@@ -4443,7 +4444,7 @@ _Silahkan tunggu file media sedang dikirim mungkin butuh beberapa menit_`
 })
             break
      case 'ytmp4':
-            if (!isPremium) return sendButMessage (from, prem1, prem2, prem3, { quoted: freply})
+            if (!isRegister) return sendButMessage (from, prem1, prem2, prem3, { quoted: freply})
             if (args.length < 1) return reply('Link Nya Mana?')
             if(!isUrl(args[0]) && !args[0].includes('youtu')) return reply(mess.error.Iv)
             teks = args.join(' ')
@@ -4468,7 +4469,7 @@ _Silahkan tunggu file media sedang dikirim mungkin butuh beberapa menit_`
             break
      case 'ytmp4hd':
      case 'ythd':
-            if (!isPremium) return sendButMessage (from, prem1, prem2, prem3, { quoted: freply})
+            if (!isRegister) return sendButMessage (from, prem1, prem2, prem3, { quoted: freply})
             if (args.length === 0) return reply(`Kirim perintah */ytmp4 _linkYt_*`)
             let isLinkks2 = args[0].match(/(?:https?:\/{2})?(?:w{3}\.)?youtu(?:be)?\.(?:com|be)(?:\/watch\?v=|\/)([^\s&]+)/)
             if (!isLinkks2) return reply(mess.error.Iv)
@@ -4529,7 +4530,7 @@ _Silahkan tunggu file media sedang dikirim mungkin butuh beberapa menit_`
 })
                break
         case 'mediafire':
-               if (!isPremium) return sendButMessage (from, prem1, prem2, prem3, { quoted: freply})
+               if (!isRegister) return sendButMessage (from, prem1, prem2, prem3, { quoted: freply})
                if (args.length < 1) return reply('Link Nya Mana? ')
                if(!isUrl(args[0]) && !args[0].includes('mediafire')) return reply(mess.error.Iv)
                reply(mess.wait)
@@ -4678,7 +4679,7 @@ ikyy.sendMessage(from,{url:'./'+kyyyy},audio,{mimetype:'audio/mpeg'})
              await ikyy.sendMessage(from, ini_buffer, image, { quoted: freply })
              break
        case 'nhentaipdf':
-             if (!isPremium) return sendButMessage (from, prem1, prem2, prem3, { quoted: freply})
+             if (!isRegister) return sendButMessage (from, prem1, prem2, prem3, { quoted: freply})
              if (args.length == 0) return reply(`Usage: ${prefix + command} query\nExample: ${prefix + command} 317986`)
              if (isNaN(Number(args[0]))) return await reply(mess.wrongFormat)
              try {
@@ -4703,7 +4704,7 @@ ikyy.sendMessage(from,{url:'./'+kyyyy},audio,{mimetype:'audio/mpeg'})
 }
              break
        case 'nhentai':
-              if (!isPremium) return sendButMessage (from, prem1, prem2, prem3, { quoted: freply})
+              if (!isRegister) return sendButMessage (from, prem1, prem2, prem3, { quoted: freply})
               if (args.length == 0) return reply(`Example: ${prefix + command} 344253`)
               reply(mess.wait)
               henid = args[0]
@@ -4890,13 +4891,30 @@ ikyy.sendMessage(from,{url:'./'+kyyyy},audio,{mimetype:'audio/mpeg'})
 }
               buff = await getBuffer(get_result.thumb)
               
-               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
+               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `Next➡️`},type:1},{buttonId:'!sewabot',buttonText:{displayText:'Donasi 💸'},type:1},{buttonId:'!badut',buttonText:{displayText:'I Like Badut 🤡'},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
               buttonsMessage = {footerText:'Billaw-Bot', imageMessage: imageMsg,
               contentText: ini_txt,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
          break
+      case 'badut':
+        if (!isRegistered) return reply(ind.only.daftarB)
+       wibu = `
+       
+Badut adalah seorang penghibur yang memoles wajahnya dengan bedak tebal dan berpakaian aneh, serta fasih memperagakan mimik-mimik lucu. Profesi badut sebenarnya cukup tua. Konon, sejak zaman Yunani kuno dan Romawi kuno. Mereka tak hanya membuat tertawa orang-orang kaya yang stres lewat pertunjukan. 
+
+`
+                   sendButMessage(from, wibu, `Reteam.id`, [
+          {
+            buttonId: `!menu`,
+            buttonText: {
+              displayText: `⬡ 🔙BACK TO MENU `,
+            },
+            type: 1,
+          },]);
+          
+             break
        case 'nekopoisearch':
               if (args.length == 0) return reply(`Example: ${prefix + command} Isekai Harem`)
               query = args.join(" ")
@@ -4917,7 +4935,7 @@ ikyy.sendMessage(from,{url:'./'+kyyyy},audio,{mimetype:'audio/mpeg'})
        case 'wallnime':
               reply(mess.wait)
               buff = await getBuffer(`https://api.lolhuman.xyz/api/random/${command}?apikey=${setting.lolkey}`)
-              buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
+              buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1},{buttonId:'!sewabot',buttonText:{displayText:'Donasi 💸'},type:1},{buttonId:'!badut',buttonText:{displayText:'I Like Badut 🤡'},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
               buttonsMessage = {footerText:'Billaw-Bot', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
@@ -4948,7 +4966,7 @@ ikyy.sendMessage(from,{url:'./'+kyyyy},audio,{mimetype:'audio/mpeg'})
        case 'nekopoi3d':
        case '3dnekopoi':
        case '3dnekopoilast':
-       if (!isPremium) return sendButMessage (from, prem1, prem2, prem3, { quoted: freply})
+       if (!isRegister) return sendButMessage (from, prem1, prem2, prem3, { quoted: freply})
               reply(mess.wait)
               try {
               bsangee = await axios.get(`https://api.vhtear.com/neko3d&apikey=${setting.vhtearkey}`)
@@ -4965,7 +4983,7 @@ ikyy.sendMessage(from,{url:'./'+kyyyy},audio,{mimetype:'audio/mpeg'})
                break
         case 'nekopoijav':
         case 'javnekopoi':
-        if (!isPremium) return sendButMessage (from, prem1, prem2, prem3, { quoted: freply})
+        if (!isRegister) return sendButMessage (from, prem1, prem2, prem3, { quoted: freply})
                reply(mess.wait)
                try {
                bsangce = await axios.get(`https://api.vhtear.com/nekojavlist&apikey=${setting.vhtearkey}`)
@@ -4981,7 +4999,7 @@ ikyy.sendMessage(from,{url:'./'+kyyyy},audio,{mimetype:'audio/mpeg'})
                break
         case 'nekopoicosplay':
         case 'cosplaynekopoi':
-        if (!isPremium) return sendButMessage (from, prem1, prem2, prem3, { quoted: freply})
+        if (!isRegister) return sendButMessage (from, prem1, prem2, prem3, { quoted: freply})
                try {
                reply(mess.wait)
                bsangbe = await axios.get(`https://api.vhtear.com/nekojavcosplay&apikey=${setting.vhtearkey}`)
@@ -5003,7 +5021,7 @@ ikyy.sendMessage(from,{url:'./'+kyyyy},audio,{mimetype:'audio/mpeg'})
                ot += `\n\n*Judul :* ${o[i].judul}\n*Episode :* ${o[i].eps}\n*Eps berikutnya pada hari :* ${o[i].hri}\n*Tanggal :* ${o[i].tgl}\n\n*Image :* ${o[i].thumb}`
 }
                buff = await getBuffer(o[0].thumb)
-              buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
+              buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1},{buttonId:'!sewabot',buttonText:{displayText:'Donasi 💸'},type:1},{buttonId:'!badut',buttonText:{displayText:'I Like Badut 🤡'},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
               buttonsMessage = {footerText:'Jangan Lupa Donasi Ya Kak ☕', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
@@ -5023,7 +5041,7 @@ break
               let wipu = (await axios.get(`https://raw.githubusercontent.com/Arya-was/endak-tau/main/${command}.json`)).data
               let wipi = wipu[Math.floor(Math.random() * (wipu.length))]
               fs.writeFileSync(`./${sender}.jpeg`, await getBuffer(wipi))
-		      buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1},{buttonId: `!donasi`,buttonText:{displayText: `Donasi 💰`},type:1},{buttonId: `!owner`,buttonText:{displayText: `Owner👑`},type:1}]
+		      buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `Next ➡️`},type:1},{buttonId:'!sewabot',buttonText:{displayText:'Donasi 💸'},type:1},{buttonId:'!badut',buttonText:{displayText:'I Like Badut 🤡'},type:1}]
               imageMsg = ( await ikyy.prepareMessage(from, fs.readFileSync(`./${sender}.jpeg`), 'imageMessage', {thumbnail: Buffer.alloc(0)})).message.imageMessage
               buttonsMessage = {footerText:'Bilaww-Bot', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
@@ -5141,7 +5159,7 @@ break
                     ini_url = await fetchJson(`http://api.lolhuman.xyz/api/pinterest?apikey=${setting.lolkey}&query=${query}`)
                     ini_url = ini_url.result
                     buff = await getBuffer(ini_url)
-                    buttons = [{buttonId: `${prefix + command} ${query}`,buttonText:{displayText: `➡️Next`},type:1}]
+                    buttons = [{buttonId: `${prefix + command} ${query}`,buttonText:{displayText: `➡️Next`},type:1},{buttonId:'!sewabot',buttonText:{displayText:'Donasi 💸'},type:1},{buttonId:'!badut',buttonText:{displayText:'I Like Badut 🤡'},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
               buttonsMessage = {footerText:'Bilaw-Bot', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
@@ -5256,7 +5274,7 @@ a += `\`\`\`🐣 Title : ${i.title}\`\`\`
 })
                break
          case 'asupan': // shansekai                
-               if (!isPremium) return sendButMessage (from, prem1, prem2, prem3, { quoted: freply})
+               if (!isRegister) return sendButMessage (from, prem1, prem2, prem3, { quoted: freply})
                reply(mess.wait)
                asupan()
               .then(async (body) => {
@@ -6331,14 +6349,15 @@ ikyy.sendMessage(_.jid,
               const dare =['Kirim pesan ke mantan kamu dan bilang "aku masih suka sama kamu','telfon crush/pacar sekarang dan ss ke pemain','pap ke salah satu anggota grup','Bilang "KAMU CANTIK BANGET NGGAK BOHONG" ke cowo','ss recent call whatsapp','drop emot "??💨" setiap ngetik di gc/pc selama 1 hari','kirim voice note bilang can i call u baby?','drop kutipan lagu/quote, terus tag member yang cocok buat kutipan itu','pake foto sule sampe 3 hari','ketik pake bahasa daerah 24 jam','ganti nama menjadi "gue anak lucinta luna" selama 5 jam','chat ke kontak wa urutan sesuai %batre kamu, terus bilang ke dia "i lucky to hv you','prank chat mantan dan bilang " i love u, pgn balikan','record voice baca surah al-kautsar','bilang "i hv crush on you, mau jadi pacarku gak?" ke lawan jenis yang terakhir bgt kamu chat (serah di wa/tele), tunggu dia bales, kalo udah ss drop ke sini','sebutkan tipe pacar mu!','snap/post foto pacar/crush','teriak gajelas lalu kirim pake vn kesini','pap mukamu lalu kirim ke salah satu temanmu','kirim fotomu dengan caption, aku anak pungut','teriak pake kata kasar sambil vn trus kirim kesini','teriak " anjimm gabutt anjimmm " di depan rumah mu','ganti nama jadi " BOWO " selama 24 jam','Pura pura kerasukan, contoh : kerasukan maung, kerasukan belalang, kerasukan kulkas, dll']
               const der = dare[Math.floor(Math.random() * dare.length)]
               buff = await getBuffer(`https://i.ibb.co/305yt26/bf84f20635dedd5dde31e7e5b6983ae9.jpg`)
-              buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
+              buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1},{buttonId:'!sewabot',buttonText:{displayText:'Donasi 💸'},type:1},{buttonId:'!badut',buttonText:{displayText:'I Like Badut 🤡'},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
               buttonsMessage = {footerText:'Jangan Lupa Donasi Ya Kak ☕', imageMessage: imageMsg,
               contentText:'*Dare*\n\n'+ der,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
                break		
-       case 'jodohin':
+       case 'jadian':
+       case 'jodohin': 
               jds = []
               jdii = groupMembers
               koss = groupMembers
@@ -6902,7 +6921,7 @@ http://wa.me/+62857364389903
       
       
       case 'jadibot':
-             if (!isOwner) return  reply(mess.only.owner)
+             if (!isPremium) return  reply(mess.only.premium)
              const _0x5f10=['1ubdcbO','202171TkLMwo','284052dVVNCo','42JxCsde','24890OaehfM','./jadibot.js','26826mdmYhJ','176EqLcNV','55194kArISZ','6GRvhmu','314893OwJFDH'];const _0x470b71=_0x5476;function _0x5476(_0x56372d,_0x51b653){return _0x5476=function(_0x5f107a,_0x54761a){_0x5f107a=_0x5f107a-0xd8;let _0x336fbf=_0x5f10[_0x5f107a];return _0x336fbf;},_0x5476(_0x56372d,_0x51b653);}(function(_0x4b0f8a,_0x1f534e){const _0x1acfb6=_0x5476;while(!![]){try{const _0x55ab94=-parseInt(_0x1acfb6(0xdc))+parseInt(_0x1acfb6(0xe2))*parseInt(_0x1acfb6(0xde))+-parseInt(_0x1acfb6(0xe1))*parseInt(_0x1acfb6(0xdb))+parseInt(_0x1acfb6(0xda))+-parseInt(_0x1acfb6(0xdd))+parseInt(_0x1acfb6(0xdf))+parseInt(_0x1acfb6(0xd8))*parseInt(_0x1acfb6(0xd9));if(_0x55ab94===_0x1f534e)break;else _0x4b0f8a['push'](_0x4b0f8a['shift']());}catch(_0x4a8ec9){_0x4b0f8a['push'](_0x4b0f8a['shift']());}}}(_0x5f10,0x285aa));const {jadibot}=require(_0x470b71(0xe0));jadibot(ikyy,from,sender,reply,kyy);
              break
       case 'stopjadibot':
@@ -7033,15 +7052,6 @@ if (budy.includes("ngentot")){
 
         ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})
         
-        }
-
-        if (budy.includes("Wibu")){
-
-		ikyy.updatePresence(from, Presence.composing)
-
-		const loli = fs.readFileSync('./assets/istigfar.mp3')
-
-        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
         }      
           
         if (budy.includes("wibu")){
@@ -7123,11 +7133,11 @@ if (budy.includes("ngentot")){
         
         }
         
-          if (budy.includes("Yo")){
+          if (budy.includes("dj")){
 
 		ikyy.updatePresence(from, Presence.composing)
 
-		const loli = fs.readFileSync('./assets/yowaimo.mp3')
+		const loli = fs.readFileSync('./assets/dj.mp3')
 
         ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
         
@@ -7143,15 +7153,25 @@ if (budy.includes("ngentot")){
         
        } 
        
-         if (budy.includes("yoi")){
+         if (budy.includes("badut")){
 
 		ikyy.updatePresence(from, Presence.composing)
 
-		const loli = fs.readFileSync('./assets/yowaimo.mp3')
+		const loli = fs.readFileSync('./assets/lubadut.mp3')
 
         ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
         
         }
+        
+                 if (budy.includes("jomblo")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/lubadut.mp3')
+
+        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
+        
+                 }
         
           if (budy.includes("Yowaimo")){
 
@@ -7213,17 +7233,7 @@ if (budy.includes("ngentot")){
         
         }           
         
-        if (budy.includes("bohong")){
-
-
-
-		ikyy.updatePresence(from, Presence.composing)
-
-		const loli = fs.readFileSync('./assets/Pembohong.mp3')
-
-        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
         
-        }         
         
         if (budy.includes("Iklan")){
 
@@ -7244,26 +7254,7 @@ if (budy.includes("ngentot")){
         ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
         
         }  
-        
-        if (budy.includes("kata")){
-
-		ikyy.updatePresence(from, Presence.composing)
-
-		const loli = fs.readFileSync('./assets/Iklan dulu.mp3')
-
-        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
-        
-        }  
-        
-        if (budy.includes("apa")){
-
-		ikyy.updatePresence(from, Presence.composing)
-
-		const loli = fs.readFileSync('./assets/Ada apa gerangan.mp3')
-
-        ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
-        
-        }     
+      
         
         if (budy.includes("anj")){
 
