@@ -65,7 +65,7 @@ const atm = require("./lib/atm");
 
 const _sewa = require("./lib/sewa");
 
-var kuis = false
+var kuis = true
 hit_today = []
 ky_ttt = []
 const setGelud = require('./lib/gameGelud.js')
