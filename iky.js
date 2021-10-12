@@ -1018,7 +1018,7 @@ case 'sendbug':
                await sleep(1000)
                txtt =`Hai Kak ${pushname}\nItu Ownerku, Mau tau soal apa ya?`
 
-               buttons = [{buttonId: '!sourcecode',buttonText:{displayText: 'SourceCode'},type:1},{buttonId:'!sewabot',buttonText:{displayText:'Donasi'},type:1},{buttonId:'!infoig',buttonText:{displayText:'Instagram'},type:1}]
+               buttons = [{buttonId: '!sourcecode',buttonText:{displayText: 'SourceCode'},type:1},{buttonId:'!donasi',buttonText:{displayText:'Donasi'},type:1},{buttonId:'!infoig',buttonText:{displayText:'Instagram'},type:1}]
 
                buttonsMessage = {
                contentText: `${txtt}`,
@@ -1165,7 +1165,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
               
-       menu =` 💌𝐇𝐄𝐋𝐋𝐎𝐖𝐎𝐑𝐋𝐃💌
+       menu =` 👑𝐇𝐄𝐋𝐋𝐎𝐖𝐎𝐑𝐋𝐃👑
 
 ${botName} 
 ${ucapanWaktu} Kak ${pushname} 👋
@@ -1226,7 +1226,7 @@ karena lo wibu
               
                 
 
-                    ikyy.sendMessage(from, { contentText: `${menu}`, footerText: 'Reteam.bot', buttons: [{ buttonId: `!command`, buttonText: { displayText: '📚MENU' }, type: 1 },{ buttonId: `!sewabot`, buttonText: { displayText: '️💸 SEWA BOT' }, type: 1 },{ buttonId: `!owner`, buttonText: { displayText: '👑 OWNER' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: ikyads, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+                    ikyy.sendMessage(from, { contentText: `${menu}`, footerText: 'Reteam.bot', buttons: [{ buttonId: `!command`, buttonText: { displayText: '📚 MENU' }, type: 1 },{ buttonId: `!donasi`, buttonText: { displayText: '️💸 Donasi ' }, type: 1 },{ buttonId: `!owner`, buttonText: { displayText: '👑 OWNER' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: ikyads, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
               break
 case 'f':
 case 'lock':
@@ -1580,8 +1580,8 @@ wibu = `
 					buff = await getBuffer(`https://leyscoders-api.herokuapp.com/api/harta-tahta?text=${q}&apikey=IkyOgiwara`)
 		      buttons = [{buttonId: `!infoig`,buttonText:{displayText: ` Jangan Lupa Follow Ig:Fahd.maulanaa`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'Billaw-Bot', imageMessage: imageMsg,
-              contentText:`Jangan Lupa Follow Ig:Fahd.maulanaa`,buttons,headerType:4}
+              buttonsMessage = {footerText:'Reteam.bot', imageMessage: imageMsg,
+              contentText:`Jangan Lupa Follow Ig:reteam id`,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
 break
@@ -1825,7 +1825,7 @@ case 'chiisaihentai':
                 case 'hentai4everyone':
                 reply (mess.wait)
               buff = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/${command}?apikey=${setting.lolkey}`)
-              buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1},{buttonId:'!sewabot',buttonText:{displayText:'Donasi 💸'},type:1},{buttonId:'!badut',buttonText:{displayText:'I Like Badut 🤡'},type:1}]
+              buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1},{buttonId:'!donasi',buttonText:{displayText:'Donasi 💸'},type:1},{buttonId:'!badut',buttonText:{displayText:'I Like Badut 🤡'},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
               buttonsMessage = {footerText:'Reteam.bot', imageMessage: imageMsg,
               contentText:`Jangan Lupa Follow Ig:reteam.id`,buttons,headerType:4}
@@ -1877,7 +1877,7 @@ case 'chiisaihentai':
                 case 'nsfw_avatar':
                 reply (mess.wait)
                buff = await getBuffer(`https://api.lolhuman.xyz/api/random2/${command}?apikey=${setting.lolkey}`)
-                buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1},{buttonId:'!sewabot',buttonText:{displayText:'Donasi 💸'},type:1},{buttonId:'!badut',buttonText:{displayText:'I Like Badut 🤡'},type:1}]
+                buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1},{buttonId:'!donasi',buttonText:{displayText:'Donasi 💸'},type:1},{buttonId:'!badut',buttonText:{displayText:'I Like Badut 🤡'},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
               buttonsMessage = {footerText:'Retam.bot', imageMessage: imageMsg,
               contentText:`Jangan Lupa Follow Ig:reteam.id`,buttons,headerType:4}
@@ -2288,7 +2288,7 @@ case "mode":
                     buff = await getBuffer(get_result.thumbnail)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1},{buttonId:'!donasi',buttonText:{displayText:'Donasi'},type:1},{buttonId:'!badut',buttonText:{displayText:'I Like Badut 🤡'},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'Billaw-Bot', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'Reteam.bot', imageMessage: imageMsg,
               contentText: ini_txt,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
@@ -3326,6 +3326,84 @@ Silahkan pilih tabel di bawah ini , jika tidak support silahkan ketik ! command
            }
                listmsg(from, `Halo Kack ${pushname}  Ini Adalah Menu Store ${botName} Pilih Yang Mau Di beli  `, `  `, list)
                break
+case 'donasi':
+case 'donate':  
+               list = []
+               listmenu = [`5`,`10`,`15`,`20`,`25`,`30`,`unlimited`]
+               listmenuu = [`5.000`,`10.000`,`15.000`,`20.000`,`25.000`,`30.000`,`Unlimited`]
+               nombor = 1
+               startnum = 0
+               for (let x of listmenu) {
+               const yy = {title: 'menu ke' + nombor++,
+                    rows: [
+                       {
+                        title: `${listmenuu[startnum++]}`,
+                        description: ``,
+                        rowId: `${prefix}${x}`
+                      }
+                    ]
+                   }
+                        list.push(yy)
+           }
+               listmsg(from, `Halo Kack ${pushname} silahkan pilih nominal yang mau di donasi , terima kasih yang sudah donasi dan support bot ini terus ya 🥰  `, `  `, list)
+               break
+case '5':
+case '10':  
+case '15':  
+case '20': 
+case '25':  
+case '30':
+case 'unlimited':
+
+               list = []
+               listmenu = [`gopay`]
+               listmenuu = [`Gopay`]
+               nombor = 1
+               startnum = 0
+               for (let x of listmenu) {
+               const yy = {title: 'menu ke' + nombor++,
+                    rows: [
+                       {
+                        title: `${listmenuu[startnum++]}`,
+                        description: ``,
+                        rowId: `${prefix}${x}`
+                      }
+                    ]
+                   }
+                        list.push(yy)
+           }
+               listmsg(from, `Halo Kack ${pushname} click gopay untuk melanjutkan donasi , terima kasih yang sudah donasi dan support bot ini terus ya 🥰 `, `  `, list)
+               break
+
+
+
+case 'gopay':
+                gopeynya = 'https://l.top4top.io/p_2110fqt7w0.jpg'
+              buff = await getBuffer(gopeynya)
+              teksnya = `
+┏━━⬣ List donasi
+┃⬡ 5.000
+┃⬡ 10.000
+┃⬡ 15.000
+┃⬡ 20.000
+┃⬡ 25.000
+┃⬡ 30.000
+┗━━⬣Unlimited
+
+┏━━⬣ Note
+┃⬡ Silahkan scan di atas 
+┃⬡ Jika eror hubungi owner
+┃⬡ Donasi hanya via gopay
+┃⬡ Terima kasih atas support anda🥰
+┗━━⬣
+`
+  buttons = [{buttonId: `${prefix}owner`,buttonText:{displayText: `OWNER`},type:1},{buttonId: `${prefix}menu`,buttonText:{displayText: `Back to menu`},type:1}]
+              imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
+              buttonsMessage = {footerText:'Reteam.bot', imageMessage: imageMsg,
+              contentText: teksnya,buttons,headerType:4}
+              prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
+              ikyy.relayWAMessage(prep)
+      break
    
    ///ISLAMI MENU  
 
@@ -4129,11 +4207,11 @@ const serialUser = createSerial(18)
 *🌹 Nama :* ${pushname}
 *🌹 API :* +${sender.split('@')[0]}
 *🌹 Serial:* ${serialUser}
-*🌹 Total:* ${_registered.length} Pengguna
+*🌹 Total:* 651 Pengguna
 
 *「 Reteam.bot 」*`
          ikyads = await getBuffer(ppimg)
-             buttons = [{buttonId: `!menu`,buttonText:{displayText: `🏷️MENU`},type:1},{buttonId: `!donasi`,buttonText:{displayText: `Donasi 💰`},type:1},{buttonId: `!owner`,buttonText:{displayText: `Owner👑`},type:1}]
+             buttons = [{buttonId: `!menu`,buttonText:{displayText: `MENU 🎟️`},type:1},{buttonId: `!donasi`,buttonText:{displayText: `Donasi 💰`},type:1},{buttonId: `!owner`,buttonText:{displayText: `Owner👑`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(ikyads, "imageMessage", { thumbnail: ikyads, })).imageMessage
               buttonsMessage = {footerText:'Jangan Lupa Donasi Ya Kak ☕', imageMessage: imageMsg,
               contentText:`${anuu}`,buttons,headerType:4}
@@ -4307,55 +4385,18 @@ case 'sfire':
 ┗━━⬣
 NB : BOT ON 24 JAM KARNA DI RUN MENGGUNAKAN RDP
 `
-  buttons = [{buttonId: `${prefix}owner`,buttonText:{displayText: `OWNER`},type:1},{buttonId: `${prefix}payment`,buttonText:{displayText: `PAYMENT`},type:1}]
+  buttons = [{buttonId: `${prefix}owner`,buttonText:{displayText: `OWNER`},type:1},{buttonId: `${prefix}donasi`,buttonText:{displayText: `PAYMENT`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'Billaw-Bot', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'Reteam.bot', imageMessage: imageMsg,
               contentText: teksnya,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
       break
-      
-      case 'payment':
-      list = await ikyy.prepareMessageFromContent(from, {
-    "listMessage": {
-      "title": "PAYMENT",
-      "description": "CLICK",
-      "buttonText": "",
-      "listType": "PRODUCT_LIST",
-      "productListInfo": {
-        "productSections": [
-          {
-            "title": "LIST CATALOG",
-            "products": [
-              {
-                "productId": "4120139628109348"
-              },
-              {
-              	"productId": "6431678466857362"
-              },
-              {
-              	"productId": "4392524570816732"
-              }
-            ]
-          }
-        ],
-        "headerImage": {
-          "productId": "4120139628109348",
-          "jpegThumbnail": fakeimage
-        },
-        "businessOwnerJid": sender
-      },
-      "footerText": "MINAT? PC OWNER MURAH KOK"
-    }
-  }, {quoted: freply})
-  ikyy.relayWAMessage(list, {waitForAck: true})
-       
-  
-  break
+ 
 //------------------< Sticker Cmd >-------------------
        case 'addcmd': 
        case 'setcmd':
-              if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
+              if (!isRegister) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
               if (isQuotedSticker) {
               if (!q) return reply(`Penggunaan : ${command} cmdnya dan tag stickernya`)
               var kodenya = kyy.message.extendedTextMessage.contextInfo.quotedMessage.stickerMessage.fileSha256.toString('base64')
@@ -4366,7 +4407,7 @@ NB : BOT ON 24 JAM KARNA DI RUN MENGGUNAKAN RDP
 }
               break
        case 'delcmd':
-              if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
+              if (!isRegister) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
               if (!isQuotedSticker) return reply(`Penggunaan : ${command} tagsticker`)
               var kodenya = kyy.message.extendedTextMessage.contextInfo.quotedMessage.stickerMessage.fileSha256.toString('base64')
             _scommand.splice(getCommandPosition(kodenya), 1)
@@ -4891,9 +4932,9 @@ ikyy.sendMessage(from,{url:'./'+kyyyy},audio,{mimetype:'audio/mpeg'})
 }
               buff = await getBuffer(get_result.thumb)
               
-               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `Next➡️`},type:1},{buttonId:'!sewabot',buttonText:{displayText:'Donasi 💸'},type:1},{buttonId:'!badut',buttonText:{displayText:'I Like Badut 🤡'},type:1}]
+               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `Next➡️`},type:1},{buttonId:'!donasi',buttonText:{displayText:'Donasi 💸'},type:1},{buttonId:'!badut',buttonText:{displayText:'I Like Badut 🤡'},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'Billaw-Bot', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'Reteam.bot', imageMessage: imageMsg,
               contentText: ini_txt,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
@@ -4935,9 +4976,9 @@ Badut adalah seorang penghibur yang memoles wajahnya dengan bedak tebal dan berp
        case 'wallnime':
               reply(mess.wait)
               buff = await getBuffer(`https://api.lolhuman.xyz/api/random/${command}?apikey=${setting.lolkey}`)
-              buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1},{buttonId:'!sewabot',buttonText:{displayText:'Donasi 💸'},type:1},{buttonId:'!badut',buttonText:{displayText:'I Like Badut 🤡'},type:1}]
+              buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1},{buttonId:'!donasi',buttonText:{displayText:'Donasi 💸'},type:1},{buttonId:'!badut',buttonText:{displayText:'I Like Badut 🤡'},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'Billaw-Bot', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'Reteam.bot', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
@@ -5021,7 +5062,7 @@ Badut adalah seorang penghibur yang memoles wajahnya dengan bedak tebal dan berp
                ot += `\n\n*Judul :* ${o[i].judul}\n*Episode :* ${o[i].eps}\n*Eps berikutnya pada hari :* ${o[i].hri}\n*Tanggal :* ${o[i].tgl}\n\n*Image :* ${o[i].thumb}`
 }
                buff = await getBuffer(o[0].thumb)
-              buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1},{buttonId:'!sewabot',buttonText:{displayText:'Donasi 💸'},type:1},{buttonId:'!badut',buttonText:{displayText:'I Like Badut 🤡'},type:1}]
+              buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1},{buttonId:'!donasi',buttonText:{displayText:'Donasi 💸'},type:1},{buttonId:'!badut',buttonText:{displayText:'I Like Badut 🤡'},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
               buttonsMessage = {footerText:'Jangan Lupa Donasi Ya Kak ☕', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
@@ -5041,7 +5082,7 @@ break
               let wipu = (await axios.get(`https://raw.githubusercontent.com/Arya-was/endak-tau/main/${command}.json`)).data
               let wipi = wipu[Math.floor(Math.random() * (wipu.length))]
               fs.writeFileSync(`./${sender}.jpeg`, await getBuffer(wipi))
-		      buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `Next ➡️`},type:1},{buttonId:'!sewabot',buttonText:{displayText:'Donasi 💸'},type:1},{buttonId:'!badut',buttonText:{displayText:'I Like Badut 🤡'},type:1}]
+		      buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `Next ➡️`},type:1},{buttonId:'!donasi',buttonText:{displayText:'Donasi 💸'},type:1},{buttonId:'!badut',buttonText:{displayText:'I Like Badut 🤡'},type:1}]
               imageMsg = ( await ikyy.prepareMessage(from, fs.readFileSync(`./${sender}.jpeg`), 'imageMessage', {thumbnail: Buffer.alloc(0)})).message.imageMessage
               buttonsMessage = {footerText:'Bilaww-Bot', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
@@ -5159,7 +5200,7 @@ break
                     ini_url = await fetchJson(`http://api.lolhuman.xyz/api/pinterest?apikey=${setting.lolkey}&query=${query}`)
                     ini_url = ini_url.result
                     buff = await getBuffer(ini_url)
-                    buttons = [{buttonId: `${prefix + command} ${query}`,buttonText:{displayText: `➡️Next`},type:1},{buttonId:'!sewabot',buttonText:{displayText:'Donasi 💸'},type:1},{buttonId:'!badut',buttonText:{displayText:'I Like Badut 🤡'},type:1}]
+                    buttons = [{buttonId: `${prefix + command} ${query}`,buttonText:{displayText: `➡️Next`},type:1},{buttonId:'!donasi',buttonText:{displayText:'Donasi 💸'},type:1},{buttonId:'!badut',buttonText:{displayText:'I Like Badut 🤡'},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
               buttonsMessage = {footerText:'Bilaw-Bot', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
@@ -5855,10 +5896,7 @@ break
       case 'runtime':
               textImg(`${runtime(process.uptime())}`)
               break
-       case 'donate': 
-       case 'donasi':
-              textImg(setting.txtDonasi)
-              break
+
        case 'sourcecode': 
        case 'sc': 
        case 'src':
@@ -5981,7 +6019,7 @@ teks = `\`\`\`BOT STATISTICS\`\`\`
              const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(kyy).replace('quotedM','m')).message.extendedTextMessage.contextInfo : kyy
              bc = await ikyy.downloadMediaMessage(encmedia)
              for (let _ of anu) {
-             ikyy.sendMessage(_.jid, bc, image, {quoted:freply,caption: `*「 Billaw-Bot NEWS 」*\n\n${body.slice(4)}`})
+             ikyy.sendMessage(_.jid, bc, image, {quoted:freply,caption: `*「 Siaran TV 」*\n\n${body.slice(4)}`})
 }
              reply('Suksess broadcast')
              } else {
@@ -6349,7 +6387,7 @@ ikyy.sendMessage(_.jid,
               const dare =['Kirim pesan ke mantan kamu dan bilang "aku masih suka sama kamu','telfon crush/pacar sekarang dan ss ke pemain','pap ke salah satu anggota grup','Bilang "KAMU CANTIK BANGET NGGAK BOHONG" ke cowo','ss recent call whatsapp','drop emot "??💨" setiap ngetik di gc/pc selama 1 hari','kirim voice note bilang can i call u baby?','drop kutipan lagu/quote, terus tag member yang cocok buat kutipan itu','pake foto sule sampe 3 hari','ketik pake bahasa daerah 24 jam','ganti nama menjadi "gue anak lucinta luna" selama 5 jam','chat ke kontak wa urutan sesuai %batre kamu, terus bilang ke dia "i lucky to hv you','prank chat mantan dan bilang " i love u, pgn balikan','record voice baca surah al-kautsar','bilang "i hv crush on you, mau jadi pacarku gak?" ke lawan jenis yang terakhir bgt kamu chat (serah di wa/tele), tunggu dia bales, kalo udah ss drop ke sini','sebutkan tipe pacar mu!','snap/post foto pacar/crush','teriak gajelas lalu kirim pake vn kesini','pap mukamu lalu kirim ke salah satu temanmu','kirim fotomu dengan caption, aku anak pungut','teriak pake kata kasar sambil vn trus kirim kesini','teriak " anjimm gabutt anjimmm " di depan rumah mu','ganti nama jadi " BOWO " selama 24 jam','Pura pura kerasukan, contoh : kerasukan maung, kerasukan belalang, kerasukan kulkas, dll']
               const der = dare[Math.floor(Math.random() * dare.length)]
               buff = await getBuffer(`https://i.ibb.co/305yt26/bf84f20635dedd5dde31e7e5b6983ae9.jpg`)
-              buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1},{buttonId:'!sewabot',buttonText:{displayText:'Donasi 💸'},type:1},{buttonId:'!badut',buttonText:{displayText:'I Like Badut 🤡'},type:1}]
+              buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1},{buttonId:'!donasi',buttonText:{displayText:'Donasi 💸'},type:1},{buttonId:'!badut',buttonText:{displayText:'I Like Badut 🤡'},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
               buttonsMessage = {footerText:'Jangan Lupa Donasi Ya Kak ☕', imageMessage: imageMsg,
               contentText:'*Dare*\n\n'+ der,buttons,headerType:4}
@@ -7355,6 +7393,16 @@ if (budy.includes("ngentot")){
         ikyy.sendMessage(from, loli, MessageType.audio, {quoted: freply, mimetype: 'audio/mp4', ptt:true})    
         
         }      
+        
+        if (budy.includes("awok")){
+
+		ikyy.updatePresence(from, Presence.composing)
+
+		const loli = fs.readFileSync('./assets/awok.webp')
+
+        ikyy.sendMessage(from, loli, MessageType.sticker, {quoted: freply})
+        
+        }
         
         if (budy.includes("astagfirullah")){
 
